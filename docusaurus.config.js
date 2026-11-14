@@ -142,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Code, framework text and Atlas records are Apache 2.0. Triodian and the Triodian logo are trademarks. Triodian's reading of a law or regulator's expectation is marked as such until counsel confirms it.`,
+        copyright: `Code, framework text and Atlas records are Apache 2.0. Triodian and the Triodian logo are trademarks. Nothing on this site is legal advice.`,
       },
       prism: {
         theme: prismThemes.github,
