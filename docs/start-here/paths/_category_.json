@@ -1,0 +1,8 @@
+{
+  "label": "Choose your path",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Four short pages, one per kind of reader. Each says what you will do with the suite, which pages to read, and in what order."
+  }
+}

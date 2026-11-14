@@ -1,0 +1,30 @@
+/* docs.triodian.com. Colours are a placeholder pair until the Triodian brand values are set;
+   everything else is Docusaurus' classic theme. */
+:root {
+  --ifm-color-primary: #1f4e79;
+  --ifm-color-primary-dark: #1c4669;
+  --ifm-color-primary-darker: #1a4263;
+  --ifm-color-primary-darkest: #153652;
+  --ifm-color-primary-light: #225689;
+  --ifm-color-primary-lighter: #245a8f;
+  --ifm-color-primary-lightest: #2966a0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #7fb3e6;
+  --ifm-color-primary-dark: #62a3e0;
+  --ifm-color-primary-darker: #549bdd;
+  --ifm-color-primary-darkest: #2b82d1;
+  --ifm-color-primary-light: #9cc3ec;
+  --ifm-color-primary-lighter: #aacbef;
+  --ifm-color-primary-lightest: #d3e5f7;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Tables are most of the reference content: let them use the page width. */
+.markdown table {
+  display: table;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+{
+  "$comment": "App repos whose docs/ folder is pulled into this site at build time by scripts/pull-app-docs.mjs. slug = folder under docs/reference/apps/. Add a repo here and it appears in Reference on the next build.",
+  "apps": [
+    {
+      "slug": "obligations-atlas",
+      "name": "Obligations Atlas",
+      "repo": "obligations-atlas",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "board-direction",
+      "name": "AI Board Direction",
+      "repo": "board-direction",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "risk-appetite",
+      "name": "AI Risk Appetite",
+      "repo": "risk_appetite",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "use-assessment",
+      "name": "AI Use Assessment",
+      "repo": "use-assessment",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "confidentiality-exposure-assessment",
+      "name": "Confidentiality Exposure Assessment",
+      "repo": "Confidentiality-Exposure-Assessment",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "metamodel",
+      "name": "Metamodel and exchange schemas",
+      "repo": "Triodian_Metamodel",
+      "branch": "main",
+      "docsDir": "docs"
+    },
+    {
+      "slug": "install",
+      "name": "Installer, suite test and runbook",
+      "repo": "triodian-install",
+      "branch": "main",
+      "docsDir": "docs"
+    }
+  ]
+}

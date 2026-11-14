@@ -1,0 +1,8 @@
+{
+  "label": "Apps",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation pulled in from each app repository's docs/ folder at build time. Edit these pages in the app's repository."
+  }
+}

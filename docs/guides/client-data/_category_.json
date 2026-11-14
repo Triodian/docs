@@ -1,0 +1,8 @@
+{
+  "label": "Client data",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Bringing a client's own registers and limits into the apps, and getting evidence out."
+  }
+}
