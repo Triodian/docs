@@ -11,6 +11,10 @@ The site has six sections: Start here, Guides, Concepts, Reference, Frameworks a
 
 To add an app, add it to `apps.json`.
 
+## Jurisdictions
+
+The reader picks a jurisdiction from the top bar; the choice is kept in the browser and can be preset with `?jurisdiction=au`. `jurisdictions.json` lists the jurisdictions and whether each is `available` or `planned` (shown greyed as coming). A page whose content depends on the jurisdiction lists it in front matter (`jurisdictions: [au]`), which shows a banner saying which jurisdiction's content is on the page; an `.mdx` page can wrap a passage in `<Jurisdiction au>…</Jurisdiction>` to show it only for that choice. Only Australian content exists today.
+
 ## Working on the site
 
 ```bash

@@ -2,6 +2,7 @@
 title: <Vendor and product: "ServiceNow IRM">
 audience: [operator]
 apps: [risk-appetite, use-assessment]
+jurisdictions: [au]             # optional: ids from jurisdictions.json this page covers; leave out for jurisdiction-free pages
 lastReviewed: YYYY-MM-DD
 ---
 

@@ -2,6 +2,7 @@
 title: Concepts
 audience: [practitioner, board, operator, contributor]
 apps: [suite]
+jurisdictions: [au]
 lastReviewed: 2026-11-14
 slug: /concepts
 sidebar_position: 1

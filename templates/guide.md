@@ -2,6 +2,7 @@
 title: <Job, as a verb phrase: "Import a provider register">
 audience: [practitioner]          # practitioner | board | operator | contributor
 apps: [use-assessment]            # slugs from apps.json, or suite
+jurisdictions: [au]             # optional: ids from jurisdictions.json this page covers; leave out for jurisdiction-free pages
 lastReviewed: YYYY-MM-DD
 ---
 

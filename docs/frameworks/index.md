@@ -2,6 +2,7 @@
 title: Frameworks
 audience: [practitioner, board]
 apps: [suite]
+jurisdictions: [au]
 lastReviewed: 2026-11-14
 slug: /frameworks
 sidebar_position: 1

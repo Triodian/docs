@@ -4,6 +4,7 @@
 //   audience      who the page is for: practitioner | board | operator | contributor (one or more)
 //   apps          which apps it covers: slugs from apps.json, or "suite"
 //   lastReviewed  YYYY-MM-DD; pages older than 180 days are listed as due for review
+//   jurisdictions optional: ids from jurisdictions.json the page's content covers; shows the banner
 // Pages pulled in from app repos (docs/reference/apps/) are not checked: their repos own them.
 
 import {readdirSync, readFileSync, statSync} from 'node:fs';
@@ -14,6 +15,7 @@ const DOCS = join(ROOT, 'docs');
 const PULLED = join(DOCS, 'reference', 'apps');
 const AUDIENCES = new Set(['practitioner', 'board', 'operator', 'contributor']);
 const APPS = new Set(['suite', ...JSON.parse(readFileSync(join(ROOT, 'apps.json'), 'utf8')).apps.map((a) => a.slug)]);
+const JURISDICTIONS = new Set(JSON.parse(readFileSync(join(ROOT, 'jurisdictions.json'), 'utf8')).jurisdictions.map((j) => j.id));
 const REVIEW_DAYS = 180;
 
 const errors = [];
@@ -35,6 +37,7 @@ for (const file of walk(DOCS)) {
   const apps = list(fm.apps);
   if (!apps.length) errors.push(`${rel}: apps missing`);
   for (const a of apps) if (!APPS.has(a)) errors.push(`${rel}: unknown app "${a}"`);
+  for (const j of list(fm.jurisdictions)) if (!JURISDICTIONS.has(j)) errors.push(`${rel}: unknown jurisdiction "${j}"`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(fm.lastReviewed || '')) {
     errors.push(`${rel}: lastReviewed missing or not YYYY-MM-DD`);
   } else {

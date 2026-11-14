@@ -2,6 +2,7 @@
 title: Triodian AI Governance App Suite
 audience: [practitioner, board, operator, contributor]
 apps: [suite]
+jurisdictions: [au]
 lastReviewed: 2026-11-14
 slug: /
 sidebar_position: 1
@@ -23,6 +24,8 @@ Two routes through the suite:
 - **Everyone else**: AI Board Direction in standalone mode, then Confidentiality Exposure Assessment when a matter arises.
 
 The Obligations Atlas sits in front of both: its matter brief says which obligations are in scope and which apps fit.
+
+The suite is written jurisdiction by jurisdiction. Australia is covered now; Singapore and the United States are being added. The picker in the top bar sets which jurisdiction's content you see, and pages that depend on it say so at the top.
 
 ## Where to go next
 

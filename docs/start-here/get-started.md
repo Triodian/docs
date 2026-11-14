@@ -2,6 +2,7 @@
 title: Get started in 10 minutes
 audience: [practitioner, board, operator]
 apps: [suite]
+jurisdictions: [au]
 lastReviewed: 2026-11-14
 sidebar_position: 2
 ---

@@ -113,6 +113,7 @@ const config = {
           {type: 'docSidebar', sidebarId: 'reference', position: 'left', label: 'Reference'},
           {type: 'docSidebar', sidebarId: 'frameworks', position: 'left', label: 'Frameworks'},
           {type: 'docSidebar', sidebarId: 'contribute', position: 'left', label: 'Contribute'},
+          {type: 'custom-jurisdiction', position: 'right'},
           {href: 'https://github.com/Triodian', label: 'GitHub', position: 'right'},
         ],
       },

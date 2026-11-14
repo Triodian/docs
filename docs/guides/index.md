@@ -2,6 +2,7 @@
 title: Guides
 audience: [practitioner, operator]
 apps: [suite]
+jurisdictions: [au]
 lastReviewed: 2026-11-14
 slug: /guides
 sidebar_position: 1

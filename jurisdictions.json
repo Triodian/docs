@@ -1,0 +1,8 @@
+{
+  "$comment": "Jurisdictions the site can show content for. status: available (content exists) or planned (listed in the picker, not selectable). The default is the first available entry.",
+  "jurisdictions": [
+    {"id": "au", "name": "Australia", "short": "AU", "status": "available"},
+    {"id": "sg", "name": "Singapore", "short": "SG", "status": "planned"},
+    {"id": "us", "name": "United States", "short": "US", "status": "planned"}
+  ]
+}

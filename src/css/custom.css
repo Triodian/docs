@@ -43,3 +43,17 @@
 .navbar__item {
   white-space: nowrap;
 }
+
+/* Jurisdiction picker and banner. */
+.jurisdiction-dropdown__planned {
+  color: var(--ifm-color-emphasis-500);
+  cursor: default;
+}
+.jurisdiction-dropdown__planned:hover {
+  background: none;
+  color: var(--ifm-color-emphasis-500);
+}
+.jurisdiction-banner {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
