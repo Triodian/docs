@@ -113,7 +113,6 @@ const config = {
           {type: 'docSidebar', sidebarId: 'reference', position: 'left', label: 'Reference'},
           {type: 'docSidebar', sidebarId: 'frameworks', position: 'left', label: 'Frameworks'},
           {type: 'docSidebar', sidebarId: 'contribute', position: 'left', label: 'Contribute'},
-          {href: 'https://triodian.com', label: 'triodian.com', position: 'right'},
           {href: 'https://github.com/Triodian', label: 'GitHub', position: 'right'},
         ],
       },
@@ -136,15 +135,9 @@ const config = {
           {
             title: 'Project',
             items: [
-              {label: 'Licensing and support', href: 'https://triodian.com/licensing#app-suite'},
+              {label: 'Licensing and support', to: '/start-here/licensing-and-support'},
               {label: 'Support the project', href: 'https://github.com/sponsors/Triodian'},
               {label: 'Security reporting', to: '/contribute/security-reporting'},
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {label: 'triodian.com', href: 'https://triodian.com'},
               {label: 'GitHub', href: 'https://github.com/Triodian'},
             ],
           },
