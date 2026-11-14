@@ -13,6 +13,9 @@ const config = {
   title: 'Triodian AI Governance App Suite',
   tagline: 'Open-source apps for board direction, risk appetite, use assessment and confidentiality',
   favicon: 'img/favicon.ico',
+  headTags: [
+    {tagName: 'link', attributes: {rel: 'apple-touch-icon', sizes: '180x180', href: '/img/apple-touch-icon.png'}},
+  ],
 
   future: {
     v4: true,
@@ -94,11 +97,14 @@ const config = {
         },
       },
       navbar: {
-        // Short in the bar; the full name is the site title and the home page heading.
-        title: 'Triodian docs',
+        // The wordmark carries the name; the full name is the site title and the home page heading.
+        title: '',
         logo: {
           alt: 'Triodian',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
+          srcDark: 'img/logo-dark.png',
+          width: 133,
+          height: 40,
         },
         items: [
           {type: 'docSidebar', sidebarId: 'startHere', position: 'left', label: 'Start here'},

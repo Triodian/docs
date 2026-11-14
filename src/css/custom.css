@@ -1,25 +1,29 @@
-/* docs.triodian.com. Colours are a placeholder pair until the Triodian brand values are set;
-   everything else is Docusaurus' classic theme. */
+/* docs.triodian.com. Brand colours from the Triodian logo (10 Aug 2026): violet #522de3 for the
+   mark, navy #0e1427 for the wordmark. Everything else is Docusaurus' classic theme. */
 :root {
-  --ifm-color-primary: #1f4e79;
-  --ifm-color-primary-dark: #1c4669;
-  --ifm-color-primary-darker: #1a4263;
-  --ifm-color-primary-darkest: #153652;
-  --ifm-color-primary-light: #225689;
-  --ifm-color-primary-lighter: #245a8f;
-  --ifm-color-primary-lightest: #2966a0;
+  --ifm-color-primary: #4a28cf;
+  --ifm-color-primary-dark: #4324ba;
+  --ifm-color-primary-darker: #3f22b0;
+  --ifm-color-primary-darkest: #341c91;
+  --ifm-color-primary-light: #552fdc;
+  --ifm-color-primary-lighter: #5d39de;
+  --ifm-color-primary-lightest: #7658e3;
+  --ifm-font-color-base: #0e1427;
+  --ifm-heading-color: #0e1427;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
-  --ifm-color-primary: #7fb3e6;
-  --ifm-color-primary-dark: #62a3e0;
-  --ifm-color-primary-darker: #549bdd;
-  --ifm-color-primary-darkest: #2b82d1;
-  --ifm-color-primary-light: #9cc3ec;
-  --ifm-color-primary-lighter: #aacbef;
-  --ifm-color-primary-lightest: #d3e5f7;
+  --ifm-color-primary: #a08cf0;
+  --ifm-color-primary-dark: #8a71ec;
+  --ifm-color-primary-darker: #7f64ea;
+  --ifm-color-primary-darkest: #5d3ce4;
+  --ifm-color-primary-light: #b6a7f4;
+  --ifm-color-primary-lighter: #c1b4f6;
+  --ifm-color-primary-lightest: #e2dbfb;
+  --ifm-font-color-base: #e6e6ea;
+  --ifm-heading-color: #f2f2f5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -27,4 +31,15 @@
 .markdown table {
   display: table;
   width: 100%;
+}
+
+/* Keep the wordmark at its drawn height in the bar. */
+.navbar__logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* Section names stay on one line in the bar. */
+.navbar__item {
+  white-space: nowrap;
 }
