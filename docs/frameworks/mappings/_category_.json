@@ -1,0 +1,8 @@
+{
+  "label": "Mappings",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "One page per external instrument the apps are built against: what it is, what it asks, which steps, checks, outputs and evidence tags map to it, and whether counsel has reviewed the mapping."
+  }
+}
