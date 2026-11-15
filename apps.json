@@ -1,5 +1,5 @@
 {
-  "$comment": "App repos whose docs/ folder is pulled into this site at build time by scripts/pull-app-docs.mjs. slug = folder under docs/reference/apps/. Add a repo here and it appears in Reference on the next build.",
+  "$comment": "App repos whose docs/ folder is pulled into this site at build time by scripts/pull-app-docs.mjs. slug = folder under docs/reference/apps/. Add a repo here and it appears in Reference on the next build. exclude: paths under docsDir not to publish (specs and working documents).",
   "apps": [
     {
       "slug": "obligations-atlas",
@@ -20,21 +20,31 @@
       "name": "AI Risk Appetite",
       "repo": "risk_appetite",
       "branch": "main",
-      "docsDir": "docs"
+      "docsDir": "docs",
+      "exclude": [
+        "AI Risk Appetite App - Fix Mini-Spec v1.md",
+        "AI Use Assessment Framework.md"
+      ]
     },
     {
       "slug": "use-assessment",
       "name": "AI Use Assessment",
       "repo": "use-assessment",
       "branch": "main",
-      "docsDir": "docs"
+      "docsDir": "docs",
+      "exclude": [
+        "specs/"
+      ]
     },
     {
       "slug": "confidentiality-exposure-assessment",
       "name": "Confidentiality Exposure Assessment",
       "repo": "Confidentiality-Exposure-Assessment",
       "branch": "main",
-      "docsDir": "docs"
+      "docsDir": "docs",
+      "exclude": [
+        "specs/"
+      ]
     },
     {
       "slug": "metamodel",

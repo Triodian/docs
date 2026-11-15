@@ -14,4 +14,4 @@ Facts to look up, not read through. Most of this section is held in the app repo
 - **Atlas API and MCP server**: endpoints, parameters, the keyless tier and its rate limit, registration for firms
 - **Installer and scripts**: install.mjs, the provisioning script, close-client, the suite and chain tests
 
-Generated per-app pages (steps or decisions, checks, roles, outputs, set-up fields, environment variables, status endpoint) are built from each app's content and roles files in task D.3.
+Generated per-app pages (steps or decisions, checks, roles, outputs, set-up fields, environment variables, status endpoint) are built from each app's content and roles files and are being added.

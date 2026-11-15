@@ -10,7 +10,7 @@ sidebar_position: 21
 Federal banking supervisors (OCC, Federal Reserve, FDIC, NCUA) and state regulators govern AI in banking through model risk and third-party guidance rather than an AI rule. The pack `usBanking` is built on the banking baseline.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -35,7 +35,3 @@ Federal banking supervisors (OCC, Federal Reserve, FDIC, NCUA) and state regulat
 - [Federal Reserve SR 26-2](https://www.federalreserve.gov/supervisionreg/srletters/sr2602.htm)
 - [OCC Bulletin 2026-46, proposed third-party risk management guidance](https://occ.gov/news-issuances/bulletins/2026/bulletin-2026-46.html)
 - [Federal Register, proposed guidance (15 September 2026)](https://www.federalregister.gov/documents/2026/09/15/2026-18859/proposed-third-party-risk-management-guidance)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

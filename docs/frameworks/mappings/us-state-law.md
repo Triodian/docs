@@ -10,7 +10,7 @@ sidebar_position: 26
 Three state laws apply across all five US sectors and are recorded in the Atlas under the United States with the state in the record's title.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -33,7 +33,3 @@ Three state laws apply across all five US sectors and are recorded in the Atlas 
 - [CPPA ADMT, risk assessment and audit regulations (Hunton summary)](https://www.hunton.com/privacy-and-information-security-law/cppa-finalizes-ccpa-regulations-on-automated-decision-making-technology-risk-assessments-and-cybersecurity-audits)
 - [Texas Attorney General, TRAIGA](https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint/consumer-ai-rights)
 - [Colorado SB 26-189 (Hunton summary)](https://www.hunton.com/privacy-and-information-security-law/colorado-ai-act-amended-and-effective-date-delayed)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

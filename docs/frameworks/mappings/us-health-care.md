@@ -10,7 +10,7 @@ sidebar_position: 24
 HHS (OCR, ASTP/ONC, CMS), the FDA and state health and medical boards govern AI in care and coverage. The pack `usHealth` is built on the health care baseline.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -36,7 +36,3 @@ HHS (OCR, ASTP/ONC, CMS), the FDA and state health and medical boards govern AI 
 
 - [45 CFR 92.210](https://www.customsmobile.com/regulations/45/92.210)
 - [ONC HTI-5 final rule (Akin summary)](https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/onc-issues-hti-5-final-rule-removing-model-card-and-risk-management-requirements-for-predictive-decision-support-interventions)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

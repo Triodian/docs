@@ -24,7 +24,3 @@ The US Treasury's *Financial Services AI Risk Management Framework* (February 20
 ## Sources
 
 - [BCBS, Principles for the sound management of third-party risk (December 2025)](https://www.bis.org/bcbs/publ/d605.htm)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

@@ -25,7 +25,7 @@ Every repository is public under [github.com/Triodian](https://github.com/Triodi
 2. **Wording is content.** A change to what a step says is a content change, made in the content file and rebuilt; the regression test checks that the insurer pack's outputs still match word for word.
 3. **Rules are shared.** A change to who may do what is made once, in the shared rules file, with a case added to `tests/rules.test.mjs` that fails on the old behaviour.
 4. **Schemas are versioned.** A change to an exchange file is a new schema version in Triodian_Metamodel first, then the apps that write and read it; each app's tests validate its files against the published schemas.
-5. **Triodian's reading is marked.** Any statement about what a law or regulator requires is marked as Triodian's reading until counsel confirms it, and cites the source text. The same rule applies to documentation.
+5. **Cite the instrument.** Any statement about what a law or regulator requires cites the source text, and the apps' outputs say what was recorded and who decided it, never whether a duty is met. The same rule applies to documentation.
 6. **Atlas records are reviewed, not merged.** Obligations are proposed through the update agent with sources, and a named reviewer approves them; nothing is published without approval. Start with the [shared vocabulary](/reference/apps/metamodel/shared-vocabulary) and [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction).
 
 ## Read in this order

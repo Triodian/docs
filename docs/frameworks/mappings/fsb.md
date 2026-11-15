@@ -21,7 +21,3 @@ Two Financial Stability Board documents inform the financial-sector baselines: *
 
 - [FSB, Monitoring adoption of AI and related vulnerabilities (October 2025)](https://www.fsb.org/2025/10/monitoring-adoption-of-artificial-intelligence-and-related-vulnerabilities-in-the-financial-sector/)
 - [FSB third-party risk toolkit (December 2023)](https://www.fsb.org/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

@@ -25,7 +25,3 @@ The NIST AI Risk Management Framework (AI 100-1, January 2023) is a voluntary fr
 - [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework)
 - [NIST Cyber AI Profile, preliminary draft](https://www.globalpolicywatch.com/2026/01/nist-publishes-preliminary-draft-of-cybersecurity-framework-profile-for-artificial-intelligence-for-public-comment/)
 - [NIST concept note, AI RMF profile for critical infrastructure](https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

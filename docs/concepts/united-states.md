@@ -9,7 +9,7 @@ sidebar_position: 3
 
 The United States is treated as a **baseline jurisdiction with sector overlays**: there is no federal AI statute, and since 2025 federal agencies have been withdrawing or narrowing AI-specific rules, so what binds is sector law applied to AI (model risk, third-party risk, privacy and safeguarding, nondiscrimination, incident reporting), set by federal supervisors and, for insurance and much of consumer protection, by the states. The five baseline profiles carry most of the work; each main sector adds the instruments below.
 
-> **Status, 15 November 2026.** US support is being built. Done: the scope note (US.1), eight US sectors in the Metamodel (US.2, v2.9.0), and 29 Atlas records submitted for review (US.3). Built and in review: the five sector packs (US.4). To come: five US worked examples (US.5), the installer's US option (US.6), and counsel's review of all of it in the week of 16 November. The picker in the top bar lists the United States as coming until then, and no US entity should run an engagement on the apps before counsel's review is complete. This page describes the design so that readers can see what is coming; the details may change.
+> **Status, 15 November 2026.** US support is being completed. In place: the eight US sectors in the Metamodel, the US records in the Obligations Atlas, and the five sector packs. To come: the five US worked examples and the installer's US option. The picker in the top bar lists the United States as coming until the worked examples are in; this page describes the design as built.
 
 ## The five main sectors
 
@@ -49,7 +49,7 @@ Tiers follow the Atlas: **binding** (law and binding instruments), **expected** 
 - AI Use Assessment adds the US document list and the main arrangement type, and reads a US matter brief with its jurisdiction named.
 - Fees for US engagements are set at US market levels in US dollars, not converted from Australian dollars.
 
-Every statement on this page about what a US law or regulator requires is Triodian's reading of the sources below, as at 14 November 2026 and re-checked each quarter, pending counsel's review. Nothing here is legal advice.
+Instruments on this page are as at 14 November 2026 and are re-checked each quarter. Nothing here is legal advice.
 
 ## Sources
 

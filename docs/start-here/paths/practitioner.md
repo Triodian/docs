@@ -25,7 +25,7 @@ You run engagements for clients and the apps are your method, record and output 
 3. [Concepts](/concepts): roles and separation of duties, modes, sector packs and baselines, the regulated chain, evidence. Read these before the first client session; they are what the client's GC will ask about.
 4. [Guides: client data](/guides/client-data): importing a provider register, loading an ISO/IEC 42001 limits register, Lite scope, the evidence index.
 5. The link notes for the regulated chain, held in the app repositories: [the board link](/reference/apps/risk-appetite/board-link), [the calibration link](/reference/apps/use-assessment/calibration-link) and [the in-use feed](/reference/apps/risk-appetite/appetite-feedback-link).
-6. [Frameworks](/frameworks): the method in full, once published after counsel's review.
+6. [Frameworks](/frameworks): the method in full, and the [mappings](/frameworks/mappings) to the instruments the client's GC will ask about.
 
 ## Things practitioners ask first
 

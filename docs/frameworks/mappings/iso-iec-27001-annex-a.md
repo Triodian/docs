@@ -16,7 +16,3 @@ Annex A is used for Triodian's own position rather than inside an engagement: th
 ## Sources
 
 - [ISO/IEC 27001:2022](https://www.iso.org/standard/27001)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 13 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

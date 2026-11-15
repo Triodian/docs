@@ -23,7 +23,3 @@ sidebar_position: 20
 
 - [CISA OT zero trust and AI-in-OT principles (CSA research note, May 2026)](https://labs.cloudsecurityalliance.org/research/csa-research-note-cisa-ot-zero-trust-ai-governance-20260501/)
 - [IEC 62443](https://www.iec.ch/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

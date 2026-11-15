@@ -10,7 +10,7 @@ sidebar_position: 22
 Insurance is regulated by the states, coordinated through the NAIC. The pack `usInsurance` is built on the insurance baseline.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -34,7 +34,3 @@ Insurance is regulated by the states, coordinated through the NAIC. The pack `us
 
 - [NAIC, Artificial Intelligence and Insurance Regulation (2026)](https://content.naic.org/research/jir/artificial-intelligence-and-insurance-regulation)
 - [NYDFS Insurance Circular Letter No. 7 (2024)](https://www.dfs.ny.gov/industry-guidance/circular-letters/cl2024-07)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

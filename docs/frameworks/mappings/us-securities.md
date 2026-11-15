@@ -10,7 +10,7 @@ sidebar_position: 23
 The SEC and FINRA, with state securities regulators, govern broker-dealers, advisers and fund managers. The pack `usSecurities` is built on the securities baseline.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -33,7 +33,3 @@ The SEC and FINRA, with state securities regulators, govern broker-dealers, advi
 - [Regulation S-P amendments (Holland & Knight summary)](https://www.hklaw.com/en/insights/publications/2026/05/regulation-s-p-amendments-compliance-deadline-approaching)
 - [FINRA 2026 Regulatory Oversight Report (Debevoise summary)](https://www.debevoise.com/insights/publications/2025/12/finras-2026-regulatory-oversight-report-continued)
 - [SEC withdraws pending rule proposals (Paul Hastings)](https://www.paulhastings.com/insights/client-alerts/sec-withdraws-14-pending-rule-proposals)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

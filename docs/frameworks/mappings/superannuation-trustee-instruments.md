@@ -24,7 +24,7 @@ The super trustee pack draws on the instruments that bind or guide an RSE licens
 
 | Element | App | Where |
 | --- | --- | --- |
-| Trustee and member nouns; functions for member services, claims and group insurance, advice, investments, administration and payments | AI Risk Appetite; AI Use Assessment | The super trustee pack (task 3.3) |
+| Trustee and member nouns; functions for member services, claims and group insurance, advice, investments, administration and payments | AI Risk Appetite; AI Use Assessment | The super trustee pack |
 | Critical operations under CPS 230 | AI Use Assessment | C4 wording tied to critical operations; Lite scope |
 | Concentration on one provider (Microsoft) | AI Risk Appetite | Measure M10 |
 | Board direction for a trustee | AI Board Direction | The matching super trustee pack in connected mode |
@@ -37,7 +37,3 @@ The regulated worked example, Coastline Super, runs this pack end to end from an
 - [Superannuation Industry (Supervision) Act 1993](https://www.legislation.gov.au/)
 - [APRA, SPS 515 and SPS 220](https://www.apra.gov.au/)
 - [ASIC RG 271, REP 831, REP 844](https://asic.gov.au/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

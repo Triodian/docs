@@ -22,7 +22,3 @@ The International Association of Insurance Supervisors' *Application Paper on th
 ## Sources
 
 - [IAIS, Application Paper on the supervision of AI (July 2025)](https://www.iais.org/2025/07/the-iais-publishes-application-paper-on-the-supervision-of-artificial-intelligence/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

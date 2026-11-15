@@ -10,7 +10,7 @@ sidebar_position: 25
 CISA and the sector risk management agencies (FERC and NERC for the bulk electric system, TSA for pipelines and rail, EPA for water) govern AI in critical infrastructure through cybersecurity standards and directives. The pack `usCriticalInfrastructure` is built on the corporate critical infrastructure baseline; a government-run operator chooses the government baseline.
 
 
-> **Status.** The US packs are built and in review; worked examples and the installer's US option follow, and US counsel reviews the mapping before any US entity uses the apps. See [United States](/concepts/united-states).
+> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 
@@ -33,7 +33,3 @@ CISA and the sector risk management agencies (FERC and NERC for the bulk electri
 
 - [NERC Reliability Standards](https://www.nerc.com/pa/Stand/Pages/ReliabilityStandards.aspx)
 - [CISA submits final CIRCIA rule for OMB review (Covington)](https://www.insideprivacy.com/critical-infrastructure/cisa-submits-final-circia-rule-for-omb-review/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

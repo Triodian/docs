@@ -21,7 +21,3 @@ The OECD AI Principles (adopted 2019, updated 2024) are the intergovernmental re
 
 - [OECD AI Principles](https://oecd.ai/en/ai-principles)
 - [OECD, Governing with Artificial Intelligence (September 2025)](https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287.html)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

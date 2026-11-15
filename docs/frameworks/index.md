@@ -3,15 +3,21 @@ title: Frameworks
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au]
-lastReviewed: 2026-11-14
+lastReviewed: 2026-11-15
 slug: /frameworks
 sidebar_position: 1
 ---
 
-The method each app enforces: the AI Board Direction framework (steps B0 to B9, mapped to the AICD/HTI Director's Guide), the AI Risk Appetite framework, the AI Use Assessment framework, the Confidentiality Exposure Assessment framework, and the Atlas method for proposing, reviewing and publishing records.
+The method each app enforces, in full: what question it answers, who decides and who records, the steps or decisions, the scales, the checks and the outputs. The apps are built from these frameworks: every step's wording comes from the framework text, and every rule about who may do what comes from the roles each framework sets.
 
-> **After counsel's review.** The framework pages are published here once the senior AI lawyer's review of the suite is complete (task D.7). Until then the framework text is in each app, under its Framework tab, and in each repository.
+| Framework | Answers | Page |
+| --- | --- | --- |
+| AI Board Direction | Where does the board want AI used, what will it not accept, and what must it see and decide itself? | [AI Board Direction framework](./ai-board-direction.md) |
+| AI Risk Appetite | How much authority will the entity allow AI to hold, in its own hands and in its providers', and what evidence does it expect at each level? | [AI Risk Appetite framework](./ai-risk-appetite.md) |
+| AI Use Assessment | At each boundary in the chain, what evidence of AI behaviour can be produced, measured against the board's appetite? | [AI Use Assessment framework](./ai-use-assessment.md) |
+| Confidentiality Exposure Assessment | For each channel by which matter information can reach an external model, what can the organisation show about whether it left? | [Confidentiality Exposure Assessment framework](./confidentiality-exposure-assessment.md) |
+| Obligations Atlas | Which obligations bear on this organisation's use of AI, and which engagements fit? | [Obligations Atlas method](./obligations-atlas-method.md) |
 
-The [Mappings](./mappings/index.md) section is up now: one page per external instrument the apps are built against, each marked as Triodian's reading until counsel confirms it.
+The frameworks share three scales (authority A1 to A6, consequence C1 to C5, evidence E0 to E6), the three boundaries B1 to B3, and one standing rule: the positions are the organisation's, the legal determinations are counsel's, and Triodian supplies structure, records and checks, and states no view on what any position should be.
 
-The Triodian enforcement software and hardware (CASE, SITE, ARC and the constraint-envelope work) are a separate product line and are not documented on this site.
+The [Mappings](./mappings/index.md) section takes each external instrument the apps are built against and shows where it maps to these frameworks.

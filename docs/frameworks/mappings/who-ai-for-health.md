@@ -23,7 +23,3 @@ The World Health Organization's *Ethics and governance of artificial intelligenc
 
 - [WHO, Guidance on large multi-modal models (January 2024)](https://www.who.int/publications-detail-redirect/9789240084759)
 - [WHO, Ethics and governance of AI for health (2021)](https://www.who.int/publications/i/item/9789240029200)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

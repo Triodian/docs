@@ -100,6 +100,8 @@ function copyTree(from, to, ctx) {
   let n = 0;
   for (const entry of readdirSync(from)) {
     const s = join(from, entry);
+    const relPath = relative(ctx.src, s) + (statSync(s).isDirectory() ? '/' : '');
+    if ((ctx.app.exclude ?? []).some((x) => relPath === x || relPath.startsWith(x))) continue;
     const d = join(to, entry);
     if (statSync(s).isDirectory()) {
       mkdirSync(d, {recursive: true});

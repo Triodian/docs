@@ -25,7 +25,7 @@ Two routes through the suite:
 
 The Obligations Atlas sits in front of both: its matter brief says which obligations are in scope and which apps fit.
 
-The suite is written jurisdiction by jurisdiction. Australia is covered now, the United States is being built, and Singapore's pages follow; any other jurisdiction runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere. The picker in the top bar sets which jurisdiction's content you see, and pages that depend on it say so at the top.
+The suite is written jurisdiction by jurisdiction. Australia is covered now, the United States is being completed, and Singapore's pages follow; any other jurisdiction runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere. The picker in the top bar sets which jurisdiction's content you see, and pages that depend on it say so at the top.
 
 ## Where to go next
 

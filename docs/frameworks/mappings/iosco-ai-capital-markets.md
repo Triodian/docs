@@ -23,7 +23,3 @@ Three IOSCO reports inform the securities baseline: *The use of AI and machine l
 
 - [IOSCO Supervisory Toolkit for AI use in Capital Markets (May 2026)](https://www.regulationtomorrow.com/2026/05/iosco-final-report-supervisory-toolkit-for-ai-use-in-capital-markets/)
 - [IOSCO](https://www.iosco.org/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

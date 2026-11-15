@@ -34,7 +34,7 @@ Neither the CIO nor the AI governance team proposes or records a board position,
 
 1. [Get started in 10 minutes](../get-started.md): Harrow Valley Foods shows the ten steps from a director's side in a quarter of an hour.
 2. [Concepts](/concepts): roles and separation of duties; modes; versions, drafts and resolutions.
-3. [Frameworks](/frameworks): the method, with its mapping to the AICD/HTI Director's Guide, once published.
+3. [Frameworks](/frameworks): the method, with its [mapping to the AICD/HTI Director's Guide](/frameworks/mappings/aicd-hti-directors-guide).
 4. For the CIO and the AI governance team: [what they supply and what they read](/reference/apps/use-assessment/management-roles-and-privilege).
 
 If a step refuses something you expected to do, the refusal says why, in the words of the role rules. The facilitator can change roles in set-up; the rules themselves are the method and are the same in every deployment.

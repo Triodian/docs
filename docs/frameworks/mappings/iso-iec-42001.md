@@ -19,16 +19,12 @@ ISO/IEC 42001:2023 is the certifiable management-system standard for AI: clauses
 | A.3 internal organisation (roles) | All three | The role rules and separation of duties, in the shared rules file |
 | A.6 AI system life cycle; A.8 information for interested parties | AI Use Assessment; AI Board Direction | Versions and review dates; the director briefing and outputs |
 | Clause 9.3 management review | All three | Review dates can be set to the client's management review, so one set of evidence serves the APRA response and the AI management system |
-| Statement of Applicability and limits register | AI Risk Appetite | Imported (task R.1): each limit maps to a function and an authority ceiling or consequence level; check K11 names a limit above the appetite or with no board position above it |
+| Statement of Applicability and limits register | AI Risk Appetite | Imported: each limit maps to a function and an authority ceiling or consequence level; check K11 names a limit above the appetite or with no board position above it |
 | Clause-level tags | All three | Every output's evidence line carries its clause or Annex A control beside the APRA letter bullet |
 | Triodian's own system | Triodian | [Triodian and ISO/IEC 42001: our own position](/reference/apps/install/iso42001-position) |
 
-The clause and control mapping is Triodian's reading of the standard; it is not a certification claim for any client.
+The mapping is not a certification claim for any client.
 
 ## Sources
 
 - [ISO/IEC 42001:2023](https://www.iso.org/standard/42001)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

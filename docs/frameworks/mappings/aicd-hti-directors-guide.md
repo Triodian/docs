@@ -24,12 +24,8 @@ AI Board Direction was written against the guide: every step B0 to B9 is mapped 
 | Practices | B1 inventory; B5 confidential information; B6 harm; B7 reporting and measures | Inventory CSV; 90-day action list; measures in the board view |
 | Enablers | B0 set-up, briefing and pre-read; B9 resolution and next review | Director education record; board minute |
 
-This level of mapping is drawn from a summary of the guide; the step-by-step mapping in the app checks against the guide's own headings and is part of the legal review.
+The step-by-step mapping is in the app's framework content and is shown beside each step.
 
 ## Sources
 
 - [AICD and HTI, A Director's Guide to AI Governance](https://www.aicd.com.au/) (version 2, June 2026)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

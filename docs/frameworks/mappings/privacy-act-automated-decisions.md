@@ -25,7 +25,3 @@ The apps record the facts and raise the question; counsel determines whether the
 
 - [OAIC, automated decision-making guidance (30 September 2026)](https://www.oaic.gov.au/)
 - [Privacy and Other Legislation Amendment Act 2024](https://www.legislation.gov.au/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

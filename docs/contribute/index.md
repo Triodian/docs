@@ -16,4 +16,4 @@ Every Triodian repository is public on [GitHub](https://github.com/Triodian) and
 - Code of conduct, contributing guide and pull request template: in each repository
 
 
-> **Coming.** This page is written in task D.6 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
+> The architecture, releases and roadmap pages are being written; until then each repository's README and CONTRIBUTING on [GitHub](https://github.com/Triodian) are the reference.

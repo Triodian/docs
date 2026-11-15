@@ -6,7 +6,7 @@ lastReviewed: 2026-11-14
 sidebar_position: 1
 ---
 
-Guides in this section, each written in task D.5 of the Documentation track:
+Guides in this section, being written:
 
 - Calibration link (AI Use Assessment reads AI Risk Appetite)
 - Board link (AI Risk Appetite reads board directions)

@@ -22,7 +22,3 @@ The FATF Recommendations, including Recommendation 15 (new technologies) and Rec
 
 - [FATF Recommendations](https://www.fatf-gafi.org/)
 - [CPMI-IOSCO, Principles for financial market infrastructures](https://www.bis.org/cpmi/publ/d101a.pdf)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 14 November 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

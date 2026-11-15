@@ -21,4 +21,4 @@ lastReviewed: YYYY-MM-DD
 - <Guide that uses it>
 - <Reference page that defines it>
 
-<!-- A statement about what a law or regulator requires is marked as Triodian's reading unless counsel has confirmed it, and cites the source text. -->
+<!-- A statement about what a law or regulator requires cites the source text. -->

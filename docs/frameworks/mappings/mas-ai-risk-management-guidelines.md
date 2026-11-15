@@ -22,7 +22,3 @@ The Monetary Authority of Singapore's Guidelines on AI Risk Management, issued i
 ## Sources
 
 - [MAS Guidelines on AI Risk Management (7 October 2026)](https://www.mas.gov.sg/)
-
-## Review status
-
-This mapping is Triodian's reading of the instrument as at 25 October 2026. The full legal review of the suite, including every mapping on this site, starts on 16 November 2026; findings are applied as they arrive and this line is updated when counsel has confirmed the page. Nothing on this page is legal advice.

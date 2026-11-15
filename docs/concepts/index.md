@@ -15,10 +15,10 @@ What each thing is, why the suite has it, and what it is not. Concept pages carr
 - [Baselines, overlays and the four controls](./baselines-overlays-and-controls.md): sector packs, the eight baseline profiles, BC1 to BC4, and how a jurisdiction is added
 - [United States](./united-states.md): the baseline-plus-overlay design for the five US sectors, in progress
 - The regulated chain: directions, K11, the calibration set, register extract v2, the board view
-- Evidence: the APRA letter mapping, CPS 230 and ISO/IEC 42001 tags; what is Triodian's reading and what counsel confirms
+- Evidence: the APRA letter mapping, CPS 230 and ISO/IEC 42001 tags
 - Versions, drafts and resolutions: when outputs stop being drafts
 - Security model: Access, one sign-in, service bindings, no secrets in repositories; data held and where
 - Glossary
 
 
-> **Coming.** This page is written in task D.4 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
+> The remaining concept pages are being written; until then the [Frameworks](/frameworks) carry the method in full and the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.

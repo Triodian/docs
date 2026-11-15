@@ -6,7 +6,7 @@ lastReviewed: 2026-11-14
 sidebar_position: 1
 ---
 
-Guides in this section, each written in task D.5 of the Documentation track:
+Guides in this section, being written:
 
 - Install on your own Cloudflare account
 - Provision a client

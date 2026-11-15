@@ -29,7 +29,7 @@ npm run build     # production build into build/
 
 Every page this repository owns carries front matter: `title`, `audience` (practitioner, board, operator, contributor), `apps` (slugs from `apps.json`, or `suite`) and `lastReviewed` (YYYY-MM-DD). `npm run check` fails the build without them and lists pages not reviewed in 180 days. Page templates are in `templates/`.
 
-Writing rules, in short: every page opens with who it is for and what they will have at the end; a guide is numbered steps with what the reader sees and what to do if it fails; a concept page never carries steps; a statement about what a law or regulator requires is marked as Triodian's reading unless counsel has confirmed it, and cites the source.
+Writing rules, in short: every page opens with who it is for and what they will have at the end; a guide is numbered steps with what the reader sees and what to do if it fails; a concept page never carries steps; a statement about what a law or regulator requires cites the source.
 
 ## Deployment
 
