@@ -13,7 +13,7 @@ What each thing is, why the suite has it, and what it is not. Concept pages carr
 - Roles and separation of duties: who proposes, who records, who reviews; the dual-role setting; the independent reviewer
 - Modes: standalone and regulated; what connected mode adds
 - [Baselines, overlays and the four controls](./baselines-overlays-and-controls.md): sector packs, the eight baseline profiles, BC1 to BC4, and how a jurisdiction is added
-- [United States](./united-states.md): the baseline-plus-overlay design for the five US sectors, in progress
+- [United States](./united-states.md): the five US sectors, their overlays, worked examples and what differs in the apps
 - The regulated chain: directions, K11, the calibration set, register extract v2, the board view
 - Evidence: the APRA letter mapping, CPS 230 and ISO/IEC 42001 tags
 - Versions, drafts and resolutions: when outputs stop being drafts

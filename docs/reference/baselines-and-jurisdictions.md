@@ -37,7 +37,7 @@ The Metamodel's own pages: [best-practice baselines](/reference/apps/metamodel/b
 | --- | --- | --- | --- |
 | Australia | 2.8.0 | superannuation, banking, insurance, health, critical infrastructure | general insurer, super trustee, ADI (earlier packs); baseline packs for the rest |
 | Singapore | 2.8.0 | banking, insurance, capital markets, listed companies, critical infrastructure | MAS-regulated financial institution; baseline packs |
-| United States | 2.9.0 | banking, insurance, securities, health care, critical infrastructure (eight sectors defined; payments on BP-PAYMENTS, listed and general on the general path) | `usBanking`, `usInsurance`, `usSecurities`, `usHealth`, `usCriticalInfrastructure` (in review) |
+| United States | 2.9.0 | banking, insurance, securities, health care, critical infrastructure (eight sectors defined; payments on BP-PAYMENTS, listed and general on the general path) | `usBanking`, `usInsurance`, `usSecurities`, `usHealth`, `usCriticalInfrastructure`; examples `us-banking`, `us-insurance`, `us-securities`, `us-health`, `us-critical-infrastructure` |
 
 ## Where the controls surface
 

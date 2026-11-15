@@ -10,7 +10,6 @@ sidebar_position: 24
 HHS (OCR, ASTP/ONC, CMS), the FDA and state health and medical boards govern AI in care and coverage. The pack `usHealth` is built on the health care baseline.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

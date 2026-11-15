@@ -10,7 +10,6 @@ sidebar_position: 22
 Insurance is regulated by the states, coordinated through the NAIC. The pack `usInsurance` is built on the insurance baseline.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

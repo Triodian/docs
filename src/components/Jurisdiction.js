@@ -33,8 +33,8 @@ export function JurisdictionBanner({covers}) {
       {planned.length > 0 && (
         <>
           {' '}
-          {planned.map((j) => j.name).join(' and ')} {planned.length > 1 ? 'are' : 'is'} planned; change the
-          jurisdiction from the picker in the top bar when they arrive.
+          {planned.map((j) => j.name).join(' and ')} {planned.length > 1 ? 'are' : 'is'} planned; the picker in the top bar
+          will offer {planned.length > 1 ? 'them' : 'it'} when {planned.length > 1 ? 'they arrive' : 'it arrives'}.
         </>
       )}
     </div>

@@ -35,7 +35,7 @@ APRA's letter to industry on artificial intelligence (30 April 2026) sets "at a 
 
 ## Where the suite maps
 
-Every output in the regulated chain carries an "Evidence for" line naming its letter bullet, and the evidence index (output BO7 in connected AI Board Direction) gathers the artefacts from all three apps by bullet, showing "none yet" where there is nothing. The mapping file is `public/shared/evidence.js`, the same in each app.
+Every output in an Australian regulated-chain engagement carries an "Evidence for" line naming its letter bullet (outside Australia the line carries ISO/IEC 42001 only), and the evidence index (output BO7 in connected AI Board Direction) gathers the artefacts from all three apps by bullet, showing "none yet" where there is nothing. The mapping file is `public/shared/evidence.js`, the same in each app.
 
 | Bullets | Where the evidence comes from |
 | --- | --- |

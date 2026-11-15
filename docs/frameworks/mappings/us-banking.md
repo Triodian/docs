@@ -10,7 +10,6 @@ sidebar_position: 21
 Federal banking supervisors (OCC, Federal Reserve, FDIC, NCUA) and state regulators govern AI in banking through model risk and third-party guidance rather than an AI rule. The pack `usBanking` is built on the banking baseline.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

@@ -9,7 +9,7 @@ sidebar_position: 3
 
 The United States is treated as a **baseline jurisdiction with sector overlays**: there is no federal AI statute, and since 2025 federal agencies have been withdrawing or narrowing AI-specific rules, so what binds is sector law applied to AI (model risk, third-party risk, privacy and safeguarding, nondiscrimination, incident reporting), set by federal supervisors and, for insurance and much of consumer protection, by the states. The five baseline profiles carry most of the work; each main sector adds the instruments below.
 
-> **Status, 15 November 2026.** US support is being completed. In place: the eight US sectors in the Metamodel, the US records in the Obligations Atlas, and the five sector packs. To come: the five US worked examples and the installer's US option. The picker in the top bar lists the United States as coming until the worked examples are in; this page describes the design as built.
+> **Status, 15 November 2026.** US support is in place: the eight US sectors in the Metamodel, the US records in the Obligations Atlas (federal, and New York, California, Texas and Colorado), the five sector packs, five worked examples and the installer's United States option. The picker in the top bar offers the United States.
 
 ## The five main sectors
 
@@ -41,12 +41,28 @@ Tiers follow the Atlas: **binding** (law and binding instruments), **expected** 
 
 **Cross-sector state law**, which applies across the five: California's CPPA regulations on automated decision-making technology, risk assessments and cybersecurity audits (ADMT duties from 1 January 2027; existing processing assessed by 31 December 2027); Texas TRAIGA (from 1 January 2026: prohibited intentional uses, disclosure, Attorney General enforcement with a cure period); Colorado SB 26-189 (signed 14 May 2026, from 1 January 2027), which replaced the 2024 Colorado AI Act's risk-management and impact-assessment duties with ADMT disclosure and transparency. The NIST AI RMF and ISO/IEC 42001 are adopted standards, named by the NAIC bulletin as frameworks an AI programme may rely on. State laws are recorded in the Atlas under the United States with the state in the record's title.
 
+## The worked examples
+
+Five fictional organisations, one per main sector, with an invented counsel firm. The bank and the insurer run the whole regulated chain; the other three run AI Board Direction.
+
+| Example | Sector | Runs |
+| --- | --- | --- |
+| Harlow Ridge Bank | Banking | AI Board Direction, AI Risk Appetite, AI Use Assessment |
+| Ashgrove Mutual Insurance Company | Insurance | AI Board Direction, AI Risk Appetite, AI Use Assessment |
+| Quillfield Securities | Securities and investment advice | AI Board Direction |
+| Fernhollow Health | Health care | AI Board Direction |
+| Ridgeline Power & Transmission | Critical infrastructure | AI Board Direction |
+
+Each opens from the app switcher's Practice entry and from Triodian Start's United States row.
+
 ## What is different in the apps
 
 - AI Board Direction's set-up offers the United States; an overlay pack is offered only in its own jurisdiction, and a US financial institution is not suggested the MAS pack.
 - The director briefing at B0 carries US failure cases, and B3 offers one use to consider ruling out, each naming the instruments it draws on.
 - AI Risk Appetite adds US inputs and, for health care and critical infrastructure, the consequence question at decision 2.
 - AI Use Assessment adds the US document list and the main arrangement type, and reads a US matter brief with its jurisdiction named.
+- Outside Australia, outputs carry ISO/IEC 42001 evidence tags only; the APRA letter and CPS 230 tags are Australian, and the evidence index is titled the ISO/IEC 42001 evidence index.
+- A US install starts each app on the jurisdiction's own pack for the chosen sector, or its overlay on the sector's baseline, or the baseline.
 - Fees for US engagements are set at US market levels in US dollars, not converted from Australian dollars.
 
 Instruments on this page are as at 14 November 2026 and are re-checked each quarter. Nothing here is legal advice.

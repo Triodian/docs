@@ -9,7 +9,7 @@ sidebar_position: 1
 
 This guide is for a contributor adding a country to the suite: its sectors in the Metamodel, its obligations in the Obligations Atlas, its sector packs in the three engagement apps, its worked examples and its installer option. At the end, a practitioner can choose the jurisdiction in set-up, the Atlas shows it as covered, and each main sector opens with its own pack. It takes about two weeks of work for five sectors, plus the Atlas review and counsel's review, which run at their own pace.
 
-The canonical statement of the method is the Metamodel's [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) page, steps J.1 to J.6. This guide walks those steps as they were run for the United States in November 2026, and adds what that run taught. Where the two differ, the Metamodel page is updated to match.
+The canonical statement of the method is the Metamodel's [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) page, steps J.1 to J.6. This guide walks those steps as they were run for the United States in November 2026, and what that run taught; the Metamodel page was revised afterwards to carry it.
 
 ## Before you start
 
@@ -91,7 +91,7 @@ One fictional organisation per main sector, labelled fictional on every screen, 
 
 Done when each example runs end to end from the practice entry point, the chain test covers at least one regulated example for the jurisdiction, and the suite's tests pass.
 
-*US run:* in progress at the time of writing.
+*US run:* five examples (Harlow Ridge Bank, Ashgrove Mutual Insurance Company, Quillfield Securities, Fernhollow Health, Ridgeline Power & Transmission), the bank and insurer through all three apps, the rest in AI Board Direction; Triodian Start gained a United States row. Found on the way: every output had carried Australian evidence tags whatever the pack, so the evidence module now takes the jurisdiction and, outside Australia, tags ISO/IEC 42001 only.
 
 ### J.6 Installer and configuration
 
@@ -99,13 +99,19 @@ In triodian-install, add the jurisdiction code, its default sector and its curre
 
 Done when a test deployment installs with the new jurisdiction and opens each app on the right pack.
 
-*US run:* to follow the worked examples.
+*US run:* the installer offers the United States, and each app starts a new engagement on the jurisdiction's own pack for the sector, else its overlay on the baseline, else the baseline; a test checks that every sector the installer offers lands on a pack of its jurisdiction or a baseline. Found on the way: only AI Board Direction had read the installer's defaults, so a US install of the other two apps had started on an Australian pack. No currency setting exists in the apps; amounts are free text, and fees are a website matter.
 
-## Beside the six steps
+## After the six steps
 
-- **The docs site.** Add the jurisdiction to `jurisdictions.json` in Triodian/docs as `planned` when J.1 starts and `available` when J.5 lands; write its concept page (the [United States](/concepts/united-states) page is the pattern) and its mapping pages, one per sector overlay plus one for cross-sector law.
-- **The website.** The jurisdiction page, the fee schedule in local currency, who it is for and the cost estimator are Triodian's and are not part of the open-source suite.
-- **Review.** A lawyer admitted in the jurisdiction reads the research note, the packs and the mapping pages. Findings land as content edits, which is why the packs are generated from overlays rather than written by hand.
+The US run added three steps to the method, which the Metamodel page now carries:
+
+- **J.7 Sweep the earlier jurisdictions' terms.** Shared labels, method texts and coverage lines written for the first jurisdiction leak into the next: supervisor names on shared labels, fees in one currency, a law firm named as counsel. Search for them and make them neutral or per-jurisdiction.
+- **J.8 The website.** The jurisdiction page, who it is for, the fee schedule in local currency and the cost estimator; these are Triodian's, not part of the open-source suite.
+- **J.9 Review and re-check.** A lawyer admitted in the jurisdiction reads the research note, the packs and the mapping pages before the pages are promoted; the research note is re-checked each quarter with the other jurisdictions'.
+
+## Beside the steps
+
+- **The docs site.** Add the jurisdiction to `jurisdictions.json` in Triodian/docs as `planned` when J.1 starts and `available` when J.5 and J.6 land; write its concept page (the [United States](/concepts/united-states) page is the pattern) and its mapping pages, one per sector overlay plus one for cross-sector law.
 
 ## If something fails
 

@@ -12,7 +12,7 @@ Five open-source apps that take an organisation from a board's direction on AI, 
 
 | App | What it does | Who runs it |
 | --- | --- | --- |
-| [Obligations Atlas](https://github.com/Triodian/obligations-atlas) | A reviewed register of AI obligations for Australia and Singapore, a matter brief that scopes an engagement, and an MCP server any client can call | Counsel, practitioners |
+| [Obligations Atlas](https://github.com/Triodian/obligations-atlas) | A reviewed register of AI obligations for Australia, Singapore and the United States, a matter brief that scopes an engagement, and an MCP server any client can call | Counsel, practitioners |
 | [AI Board Direction](https://github.com/Triodian/board-direction) | Ten steps, B0 to B9, from director briefing to the chair's resolution; standalone for any company, connected for regulated entities | Board advisers, GCs, chairs |
 | [AI Risk Appetite](https://github.com/Triodian/risk_appetite) | Eight decisions and checks K1 to K11 that turn the board's direction into a calibration set management can work to | CROs, GCs |
 | [AI Use Assessment](https://github.com/Triodian/use-assessment) | A register of AI arrangements, classified and assessed against the appetite, with findings on providers and a feed back to the board | Assessors, counsel, independent reviewers |
@@ -25,7 +25,7 @@ Two routes through the suite:
 
 The Obligations Atlas sits in front of both: its matter brief says which obligations are in scope and which apps fit.
 
-The suite is written jurisdiction by jurisdiction. Australia is covered now, the United States is being completed, and Singapore's pages follow; any other jurisdiction runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere. The picker in the top bar sets which jurisdiction's content you see, and pages that depend on it say so at the top.
+The suite is written jurisdiction by jurisdiction. Australia and the United States are covered now, and Singapore's pages follow; any other jurisdiction runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere. The picker in the top bar sets which jurisdiction's content you see, and pages that depend on it say so at the top.
 
 ## Where to go next
 

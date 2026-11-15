@@ -10,7 +10,6 @@ sidebar_position: 23
 The SEC and FINRA, with state securities regulators, govern broker-dealers, advisers and fund managers. The pack `usSecurities` is built on the securities baseline.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

@@ -17,8 +17,7 @@
       "id": "us",
       "name": "United States",
       "short": "US",
-      "status": "planned",
-      "note": "packs built, in review; worked examples and counsel's review to come"
+      "status": "available"
     },
     {
       "id": "other",

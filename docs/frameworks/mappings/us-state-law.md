@@ -10,7 +10,6 @@ sidebar_position: 26
 Three state laws apply across all five US sectors and are recorded in the Atlas under the United States with the state in the record's title.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

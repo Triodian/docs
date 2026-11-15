@@ -20,7 +20,7 @@ ISO/IEC 42001:2023 is the certifiable management-system standard for AI: clauses
 | A.6 AI system life cycle; A.8 information for interested parties | AI Use Assessment; AI Board Direction | Versions and review dates; the director briefing and outputs |
 | Clause 9.3 management review | All three | Review dates can be set to the client's management review, so one set of evidence serves the APRA response and the AI management system |
 | Statement of Applicability and limits register | AI Risk Appetite | Imported: each limit maps to a function and an authority ceiling or consequence level; check K11 names a limit above the appetite or with no board position above it |
-| Clause-level tags | All three | Every output's evidence line carries its clause or Annex A control beside the APRA letter bullet |
+| Clause-level tags | All three | Every output's evidence line carries its clause or Annex A control, beside the APRA letter bullet in Australia and on its own elsewhere; outside Australia the evidence index is titled the ISO/IEC 42001 evidence index |
 | Triodian's own system | Triodian | [Triodian and ISO/IEC 42001: our own position](/reference/apps/install/iso42001-position) |
 
 The mapping is not a certification claim for any client.

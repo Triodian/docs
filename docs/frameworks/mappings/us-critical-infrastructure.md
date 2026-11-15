@@ -10,7 +10,6 @@ sidebar_position: 25
 CISA and the sector risk management agencies (FERC and NERC for the bulk electric system, TSA for pipelines and rail, EPA for water) govern AI in critical infrastructure through cybersecurity standards and directives. The pack `usCriticalInfrastructure` is built on the corporate critical infrastructure baseline; a government-run operator chooses the government baseline.
 
 
-> **Status.** US support is being completed: the five sector packs are built, and the worked examples and the installer's US option follow. See [United States](/concepts/united-states).
 
 ## The instruments
 

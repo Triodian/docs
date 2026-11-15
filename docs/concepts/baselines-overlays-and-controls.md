@@ -41,7 +41,7 @@ Where the governing body is an accountable authority (an agency head, the board 
 | --- | --- | --- |
 | Australia | Superannuation (no baseline); banking; insurance; health; critical infrastructure | APRA, ASIC, OAIC and other obligations from the Atlas; covered in full |
 | Singapore | Banking; insurance; capital markets (securities); listed companies; critical infrastructure | MAS and other obligations from the Atlas; covered in full |
-| United States | Banking; insurance; securities and investment advice; health care; critical infrastructure (corporate baseline, or government for a public operator) | Federal and state instruments by sector: see [United States](./united-states.md); in progress |
+| United States | Banking; insurance; securities and investment advice; health care; critical infrastructure (corporate baseline, or government for a public operator) | Federal and state instruments by sector from the Atlas: see [United States](./united-states.md); covered in full |
 | Any other jurisdiction | Any of the eight baselines | None: the Atlas says the jurisdiction is not covered, and the apps run on the baseline alone |
 
 Payments uses its baseline everywhere without an overlay, because no international standard setter has issued AI-specific guidance for payment providers and the profile says so. Listed companies and organisations outside financial regulation use the general path.

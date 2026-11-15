@@ -14,6 +14,7 @@ Every app has a worked example that runs in the browser and is never saved: a fi
 | AI Board Direction | Harrow Valley Foods, an unregulated company, standalone mode | Steps B0 to B9; the reality note at B1; the AI risk appetite statement and board minute at B9 |
 | AI Risk Appetite, AI Use Assessment, AI Board Direction (connected) | Coastline Super, a fictional superannuation trustee, the full regulated chain | Board directions BD1 to BD7; check K11 on each decision; the register in Lite scope; the APRA letter evidence index |
 | Confidentiality Exposure Assessment | A deal matter | The profile P1 to P9, channels and rungs, counsel's field 24 |
+| The US chain | Harlow Ridge Bank and Ashgrove Mutual Insurance Company, fictional US entities, through all three apps; Quillfield Securities, Fernhollow Health and Ridgeline Power & Transmission in AI Board Direction | The US sector packs; the ISO/IEC 42001 evidence index |
 
 1. Open the app from the app switcher on any Triodian site and choose **Practice** (or the worked example link on the sign-in page).
 2. Walk the steps in order. Each screen says who proposes, who records and what the app refuses, and why.
