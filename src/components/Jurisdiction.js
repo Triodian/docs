@@ -26,8 +26,8 @@ export function JurisdictionBanner({covers}) {
         </>
       ) : (
         <>
-          This page has no content for <strong>{jurisdiction.name}</strong> yet; it describes{' '}
-          {list.map((l) => JURISDICTIONS.find((j) => j.id === l)?.name ?? l).join(', ')}.
+          This page is about <strong>{list.map((l) => JURISDICTIONS.find((j) => j.id === l)?.name ?? l).join(', ')}</strong>;
+          your jurisdiction is set to {jurisdiction.name}.
         </>
       )}
       {planned.length > 0 && (

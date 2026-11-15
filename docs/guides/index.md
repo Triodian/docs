@@ -19,6 +19,4 @@ One job per page: numbered steps, what you see at each, what to do if it fails, 
 | Integrations | Diligent; ServiceNow IRM; OneTrust; Archer and OpenPages; Purview and Harmonic summaries |
 
 
-:::note Coming
-This page is written in task D.5 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
-:::
+> **Coming.** This page is written in task D.5 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.

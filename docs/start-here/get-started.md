@@ -24,6 +24,4 @@ Nothing you do in practice mode is sent to a server.
 When you are ready to run a real engagement, the next page is [Choose your path](./paths/index.md).
 
 
-:::note Coming
-This page is written in task D.4 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
-:::
+> **Coming.** This page is written in task D.4 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.

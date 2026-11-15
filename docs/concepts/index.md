@@ -12,7 +12,8 @@ What each thing is, why the suite has it, and what it is not. Concept pages carr
 
 - Roles and separation of duties: who proposes, who records, who reviews; the dual-role setting; the independent reviewer
 - Modes: standalone and regulated; what connected mode adds
-- Sector packs, baseline profiles and the four controls BC1 to BC4; adding a jurisdiction
+- [Baselines, overlays and the four controls](./baselines-overlays-and-controls.md): sector packs, the eight baseline profiles, BC1 to BC4, and how a jurisdiction is added
+- [United States](./united-states.md): the baseline-plus-overlay design for the five US sectors, in progress
 - The regulated chain: directions, K11, the calibration set, register extract v2, the board view
 - Evidence: the APRA letter mapping, CPS 230 and ISO/IEC 42001 tags; what is Triodian's reading and what counsel confirms
 - Versions, drafts and resolutions: when outputs stop being drafts
@@ -20,6 +21,4 @@ What each thing is, why the suite has it, and what it is not. Concept pages carr
 - Glossary
 
 
-:::note Coming
-This page is written in task D.4 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
-:::
+> **Coming.** This page is written in task D.4 of the Documentation track. Until then, the repositories' READMEs on [GitHub](https://github.com/Triodian) are the reference.
