@@ -17,6 +17,7 @@ One job per page: numbered steps, what you see at each, what to do if it fails, 
 | Links between apps | Calibration link; board link; appetite feedback link |
 | Deploying | Install on your own Cloudflare account; provision a client; the practice hub; rotate keys and tokens; close a client |
 | Integrations | Diligent; ServiceNow IRM; OneTrust; Archer and OpenPages; Purview and Harmonic summaries |
+| Extending the suite | [Add a jurisdiction](./extending-the-suite/add-a-jurisdiction.md) |
 
 
 > The guides are being written; until then the link set-up notes and the runbook are in the [Reference](/reference) section, pulled from the app repositories, and the [Frameworks](/frameworks) carry the method in full.

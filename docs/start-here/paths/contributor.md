@@ -32,7 +32,7 @@ Every repository is public under [github.com/Triodian](https://github.com/Triodi
 
 1. The repository's README, CONTRIBUTING and the pull request template.
 2. [Architecture and the path to an enterprise deployment](/reference/apps/risk-appetite/architecture): the layers and the access-control model, which are the same in every app.
-3. [Best-practice baselines](/reference/apps/metamodel/baselines), [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) and the [shared vocabulary](/reference/apps/metamodel/shared-vocabulary), for content and Atlas work.
+3. [Best-practice baselines](/reference/apps/metamodel/baselines), the guide [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction) and the [shared vocabulary](/reference/apps/metamodel/shared-vocabulary), for content and Atlas work.
 4. [Contribute](/contribute): the architecture page, releases and changelog, and the roadmap, as they are written.
 5. [Security reporting](/contribute/security-reporting): security problems go through private reporting, never a public issue.
 

@@ -67,7 +67,7 @@ BC2 and BC4 rest on the observation that unapproved AI use falls sharply when ap
 
 ## For contributors
 
-The profiles and controls are reference data in Triodian_Metamodel (`reference-data/baseline-profiles.json` and `baseline-controls.json`, each with a schema), and each jurisdiction's sectors point to their baselines in `regulated-sectors.json`. Overlays are built by an overlay tool from a per-jurisdiction file (`content/overlays/us.json` was the first), so a pack is generated, not hand-written. The six steps for a new jurisdiction are in [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction).
+The profiles and controls are reference data in Triodian_Metamodel (`reference-data/baseline-profiles.json` and `baseline-controls.json`, each with a schema), and each jurisdiction's sectors point to their baselines in `regulated-sectors.json`. Overlays are built by an overlay tool from a per-jurisdiction file (`content/overlays/us.json` was the first), so a pack is generated, not hand-written. The six steps for a new jurisdiction are in [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction), and the guide [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction) walks them as they were run for the United States.
 
 
 ## Sources
