@@ -3,11 +3,17 @@ title: "FATF Recommendations and CPMI-IOSCO PFMI"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 19
 ---
 
-The FATF Recommendations, including Recommendation 15 (new technologies) and Recommendation 16 (payment transparency, revised 2025), and the CPMI-IOSCO *Principles for financial market infrastructures* (2012, for systemically important payment systems) are the payments baseline's sources, with the FSB third-party toolkit. No international standard setter has issued AI-specific guidance for payment providers; the baseline says so, and payments has no US overlay for the same reason.
+The payments baseline is based on:
+
+- the Financial Action Task Force (FATF) Recommendations, including Recommendation 15 (new technologies) and Recommendation 16 (payment transparency, revised 2025)
+- the *Principles for financial market infrastructures* (2012) from the Committee on Payments and Market Infrastructures (CPMI) and the International Organization of Securities Commissions (IOSCO). These cover systemically important payment systems
+- the Financial Stability Board (FSB) third-party toolkit.
+
+No international standard-setter has issued guidance on AI for payment providers. The baseline states this. It is also why payments has no US overlay.
 
 ## Where the suite maps
 

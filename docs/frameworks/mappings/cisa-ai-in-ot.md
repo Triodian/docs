@@ -3,11 +3,17 @@ title: "CISA: AI in operational technology; IEC 62443"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 20
 ---
 
-*Principles for the Secure Integration of Artificial Intelligence in Operational Technology* (December 2025, by CISA with Australia's ACSC and six other national cyber agencies), *Adapting Zero Trust Principles to Operational Technology* (29 April 2026, CISA, DOE, FBI, State and DoD) and the IEC 62443 series on industrial automation and control systems security are the sources for both critical infrastructure baselines. The NIST critical infrastructure profile is in development and is marked so.
+Both critical infrastructure baselines are based on 3 sources:
+
+- *Principles for the Secure Integration of Artificial Intelligence in Operational Technology* (December 2025). The US Cybersecurity and Infrastructure Security Agency (CISA) published it with the Australian Cyber Security Centre (ACSC) and 6 other national cyber agencies.
+- *Adapting Zero Trust Principles to Operational Technology* (29 April 2026). CISA published it with the US Department of Energy, the Federal Bureau of Investigation (FBI), the Department of State and the Department of Defense.
+- the IEC 62443 series on security for industrial automation and control systems.
+
+The US National Institute of Standards and Technology (NIST) critical infrastructure profile is still being developed, and is marked as such.
 
 ## Where the suite maps
 

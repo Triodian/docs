@@ -3,11 +3,16 @@ title: "Privacy Act automated decisions (APPs 1.7 to 1.9) and OAIC guidance"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 6
 ---
 
-From 10 December 2026, an APP entity's privacy policy must state the kinds of personal information used in, and the kinds of decisions made by, computer programs that make, or do substantially and directly in making, decisions that could reasonably be expected to significantly affect an individual's rights or interests (APPs 1.7 to 1.9, inserted by the Privacy and Other Legislation Amendment Act 2024). The OAIC's guidance on automated decision-making of 30 September 2026 explains the transparency requirement.
+From 10 December 2026, some privacy policies must include new information. This applies to entities covered by the Australian Privacy Principles (APPs). It applies when a computer program makes a decision, or does something that substantially and directly helps make a decision, that could reasonably be expected to significantly affect an individual's rights or interests. The privacy policy must state:
+
+- the kinds of personal information the program uses
+- the kinds of decisions the program makes.
+
+These requirements are in APPs 1.7 to 1.9, which the Privacy and Other Legislation Amendment Act 2024 added. The Office of the Australian Information Commissioner (OAIC) published guidance on automated decision-making on 30 September 2026. It explains the transparency requirement.
 
 ## Where the suite maps
 

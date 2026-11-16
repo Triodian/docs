@@ -3,11 +3,16 @@ title: "WHO guidance on AI for health; ISO 14971 and IEC 62304"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 18
 ---
 
-The World Health Organization's *Ethics and governance of artificial intelligence for health* (2021) and its guidance on large multi-modal models (January 2024, over 40 recommendations under six principles) are the health care baseline's main sources. Where AI is a medical device, ISO 14971 (risk management for medical devices) and IEC 62304 (medical device software life cycle) apply as adopted by the jurisdiction's device regulator.
+The World Health Organization's *Ethics and governance of artificial intelligence for health* (2021) and its guidance on large multi-modal models (January 2024, more than 40 recommendations under 6 principles) are the main sources for the health care baseline.
+
+Where AI is a medical device, 2 standards also apply, as adopted by the jurisdiction's medical device regulator:
+
+- ISO 14971 (risk management for medical devices)
+- IEC 62304 (software life cycle for medical devices).
 
 ## Where the suite maps
 

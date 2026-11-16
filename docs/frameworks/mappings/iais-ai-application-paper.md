@@ -3,11 +3,19 @@ title: "IAIS Application Paper on the supervision of AI"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 16
 ---
 
-The International Association of Insurance Supervisors' *Application Paper on the supervision of artificial intelligence* (2 July 2025) applies the Insurance Core Principles to AI under five topics: risk-based supervision and proportionality; governance and accountability; robustness, safety and security; transparency and explainability; fairness, ethics and redress. It changes no ICP.
+The International Association of Insurance Supervisors' *Application Paper on the supervision of artificial intelligence* (2 July 2025) applies the Insurance Core Principles (ICPs) to AI under 5 topics:
+
+- risk-based supervision and proportionality
+- governance and accountability
+- robustness, safety and security
+- transparency and explainability
+- fairness, ethics and redress.
+
+It does not change any ICP.
 
 ## Where the suite maps
 

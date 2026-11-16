@@ -6,6 +6,8 @@ jurisdictions: [au]             # optional: ids from jurisdictions.json this pag
 lastReviewed: YYYY-MM-DD
 ---
 
+<!-- Write in plain language. See docs/contribute/writing-style.md (based on the Australian Government Style Manual). -->
+
 <What goes from which app into which records, in one sentence.>
 
 ## What is pushed

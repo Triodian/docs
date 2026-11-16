@@ -3,123 +3,194 @@ title: "Add a jurisdiction"
 audience: [contributor, practitioner]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-16
+lastReviewed: 2026-11-17
 sidebar_position: 1
 ---
 
-This guide is for a contributor adding a country to the suite: its sectors in the Metamodel, its obligations in the Obligations Atlas, its sector packs in the three engagement apps, its worked examples and its installer option. At the end, a practitioner can choose the jurisdiction in set-up, the Atlas shows it as covered, and each main sector opens with its own pack. It takes about two weeks of work for five sectors, plus the Atlas review and counsel's review, which run at their own pace.
+This guide is for contributors adding a country to the suite. Adding a country means adding:
 
-The canonical statement of the method is the Metamodel's [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) page, steps J.1 to J.6. This guide walks those steps as they were run for the United States in November 2026, and what that run taught; the Metamodel page was revised afterwards to carry it, and again on 16 November when a comparison of the United States with Australia, layer by layer, showed where a jurisdiction can meet every step and still fall short of the first one (J.10 below).
+- its sectors to the Metamodel
+- its obligations to the Obligations Atlas
+- its sector packs to the 3 engagement apps
+- its worked examples
+- its option in the installer.
+
+When you finish, a practitioner can choose the jurisdiction in set-up, the Atlas shows it as covered, and each main sector opens with its own pack.
+
+It takes about 2 weeks of work for 5 sectors. The Atlas review and counsel's review take extra time, and we cannot predict how long.
+
+The official version of the method is the Metamodel's [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) page, steps J.1 to J.6. This guide shows how we followed those steps for the United States in November 2026, and what we learned.
+
+We updated the Metamodel page afterwards with those lessons. We updated it again on 16 November, after comparing the United States with Australia part by part. The comparison showed that a jurisdiction can complete every step and still not match the first jurisdiction. Step J.10 below deals with this.
 
 ## Before you start
 
-- Read [Baselines, overlays and the four controls](/concepts/baselines-overlays-and-controls). A jurisdiction's sector packs are generated as overlays on the eight baseline profiles; you will write an overlay, not a pack.
-- Clone Triodian_Metamodel, obligations-atlas, board-direction, risk_appetite, use-assessment and triodian-install. Each has a test branch and CI; every change goes there first and reaches `main` when CI is green.
+- Read [Baselines, overlays and the 4 controls](/concepts/baselines-overlays-and-controls). A jurisdiction's sector packs are generated as overlays on the 8 baseline profiles. You will write an overlay, not a pack.
+- Clone Triodian_Metamodel, obligations-atlas, board-direction, risk_appetite, use-assessment and triodian-install. Each has a test branch and continuous integration (CI). Every change goes to the test branch first, and reaches `main` when CI passes.
 - Python 3 for the Metamodel validator (`scripts/requirements.txt`); Node 20 or later for the apps.
-- Agree who the named Atlas reviewer will be. Publishing records is a review, not code, and it is usually the slowest step.
-- Agree who will review the result for the jurisdiction. The suite states no legal conclusion, but the packs name instruments, and a lawyer admitted in the jurisdiction should read them before any organisation there uses the apps.
+- Agree who will be the named Atlas reviewer. Records are published after a review, not through code. This is usually the slowest step.
+- Agree who will review the result for the jurisdiction. The suite does not state legal conclusions, but the packs name instruments. A lawyer admitted in the jurisdiction should read the packs before any organisation there uses the apps.
 
-## The six steps
+## The 6 steps
 
 ### J.1 Scope the jurisdiction
 
-Write a research note: the regulators and their instruments by tier (binding, expected, anticipated, adopted) for each candidate sector, the cross-sector laws that apply to all of them, and the candidate sectors scored. Score each sector 0, 1 or 2 on the five tests (reach, accountability, buyers, route to market, fit) and take the top five; a tie goes to the sector with binding instruments. Record why the others stay on their baselines or the general path.
+Write a research note. It should cover:
 
-You see: a note with a dated "checked" line, a table per sector, and a scoring table. If a sector has no AI-specific binding instrument (payments in most jurisdictions), say so in the note; it is a reason to leave it on its baseline, not a gap to fill.
+- the regulators and their instruments for each possible sector, by tier (binding, expected, anticipated, adopted)
+- the laws that apply across all sectors
+- the score for each possible sector.
 
-Done when the five are recorded with their scores and the note carries the date it was checked. The note is re-checked each quarter.
+Score each sector 0, 1 or 2 on the 5 tests: reach, accountability, buyers, route to market and fit. Choose the 5 sectors with the highest scores. If 2 sectors tie, choose the one with binding instruments. Record why the other sectors stay on their baselines or the general path.
 
-*US run:* banking 10, insurance 10, securities 9, health care 8, critical infrastructure 8; listed companies 7 and payments 6 stayed on the general path and BP-PAYMENTS. One instrument moved between the first and second check (SR 26-2 replaced SR 11-7 in April 2026), which is why the date matters.
+Result: a note with a dated "checked" line, a table for each sector and a scoring table. If a sector has no binding instrument specific to AI, say so in the note. This is common for payments. It is a reason to leave the sector on its baseline. It is not a gap you need to fill.
+
+This step is done when the 5 sectors are recorded with their scores, and the note shows the date it was checked. Check the note again every quarter.
+
+*United States:* banking 10, insurance 10, securities 9, health care 8, critical infrastructure 8. Listed companies (7) stayed on the general path, and payments (6) stayed on BP-PAYMENTS. One instrument changed between the first and second checks: SR 26-2 replaced SR 11-7 in April 2026. This is why the date matters.
 
 ### J.2 Reference data in the Metamodel
 
-In `reference-data/regulated-sectors.json`, add every selectable sector for the jurisdiction with its entity types and regulators; mark `mainSector: true` on the five; and set `baselineProfiles` to the baseline each builds on. Critical infrastructure usually points at both the corporate and the government baseline, so a public operator can choose the right one. Run `python3 scripts/validate.py`.
+In `reference-data/regulated-sectors.json`:
 
-You see: the validator pass, or a failure naming the problem. It rejects an unknown baseline reference and a sixth main sector.
+- add every sector users can choose in the jurisdiction, with its entity types and regulators
+- set `mainSector: true` on the 5 main sectors
+- set `baselineProfiles` to the baseline each sector builds on.
 
-Then bring the data into the apps: in board-direction `node tools/sync-sectors.mjs` and `node tools/sync-baselines.mjs`; Risk Appetite and Use Assessment take the sectors with their packs in J.4. Raise the Metamodel version (the US was 2.9.0) so the apps can vendor it.
+Critical infrastructure usually links to both the corporate and the government baseline, so a public operator can choose the right one.
 
-Done when the validator passes and the apps list the sectors in set-up.
+Run `python3 scripts/validate.py`.
 
-*US run:* eight sectors, five main; Triodian_Metamodel 2.9.0.
+Result: the validator passes, or fails and names the problem. It rejects a baseline reference it does not recognise, and more than 5 main sectors.
+
+Then copy the data into the apps. In board-direction, run `node tools/sync-sectors.mjs` and `node tools/sync-baselines.mjs`. AI Risk Appetite and AI Use Assessment get the sectors with their packs in step J.4. Increase the Metamodel version number so the apps can include the new version. For the United States, this was 2.9.0.
+
+This step is done when the validator passes and the apps list the sectors in set-up.
+
+*United States:* 8 sectors, 5 of them main sectors. Triodian_Metamodel 2.9.0.
 
 ### J.3 The Atlas round
 
-In obligations-atlas, write one research brief per main sector (`BRIEF-<date>-<jurisdiction>-<sector>.md`) listing its instruments and the obligations each imposes, then a research file under `data/research/` (`YYYY-MM-DD-<jurisdiction>-overlay.json`) with one record per **obligation**, not per instrument: an inventory, a validation, a contract term, a board report and a notification drawn from one instrument are five records, each with its own paragraph reference, tier and key dates. The measure of depth is the first jurisdiction: Australia has about 40 records, at least six per main sector. Build the submission and send it through the update agent to the review queue. Records that rest on an announcement rather than official text go in as leads, not proposals.
+In obligations-atlas:
 
-You see: the local dry run listing proposals, leads and rejections; then, after submission, the review queue with each proposal waiting on the named reviewer.
+1. Write one research brief for each main sector, named `BRIEF-<date>-<jurisdiction>-<sector>.md`. List its instruments and the obligations each one imposes.
+2. Write a research file under `data/research/`, named `YYYY-MM-DD-<jurisdiction>-overlay.json`. Create one record for each **obligation**, not each instrument. For example, if one instrument requires an inventory, a validation, a contract term, a board report and a notification, that is 5 records. Each record has its own paragraph reference, tier and key dates.
+3. Build the submission and send it through the update agent to the review queue.
 
-Rules learned on the way:
+Use the first jurisdiction as a guide to how much detail is needed. Australia has about 40 records, with at least 6 for each main sector.
 
-- An instrument that is final but not yet in force stays **anticipated**, however certain it is. The Metamodel keeps *binding* for instruments in force; three US records had to be retiered after the first submission.
-- **State and sub-national laws** take the state's ISO 3166-2 code (`US-NY`, `US-CO`, `AU-NSW`), decided 15 November 2026 after the first US records had been published at `US` with the state in the title and had to be moved. Federal law and multistate models a state has to adopt stay at the country code. A state belongs to its country: asking for the country lists its records and every state's.
-- The Atlas shows the jurisdiction as **covered** only once its records are published, so a matter brief for it says "not covered" until the reviewer has finished and the snapshots are refreshed.
+If a record is based on an announcement and not on official text, submit it as a lead, not a proposal.
 
-Done when the reviewer has decided the proposals, the snapshots are refreshed and merged, and a matter brief for each main sector lists at least six records of its own.
+Result: the local dry run lists proposals, leads and rejections. After you submit, the review queue shows each proposal waiting for the named reviewer.
 
-*US run:* 17 records across five sectors plus California, Texas and Colorado; 29 proposals and 5 leads after the tier fix; reviewer's decision and the snapshot refresh followed. That was one record per instrument, enough to name each instrument in a brief and not enough to work from; the depth round is development plan US.3.
+Rules we learned from the United States:
+
+- An instrument that is final but not yet in force is **anticipated**, however certain it is. The Metamodel uses *binding* only for instruments in force. We had to change the tier of 3 US records after the first submission.
+- **State and other sub-national laws** use the state's ISO 3166-2 code, such as `US-NY`, `US-CO` or `AU-NSW`. We decided this on 15 November 2026. The first US records had been published under `US` with the state in the title, and we had to move them. Federal law, and model laws that each state must adopt, use the country code. A search for the country lists the country's records and the records of every state in it.
+- The Atlas shows the jurisdiction as **covered** only after its records are published. Until the reviewer has finished and the snapshots are refreshed, a matter brief for the jurisdiction says "not covered".
+
+This step is done when the reviewer has decided on the proposals, the snapshots are refreshed and merged, and a matter brief for each main sector lists at least 6 records specific to that sector.
+
+*United States:* 17 records across 5 sectors, plus California, Texas and Colorado. After fixing the tiers, there were 29 proposals and 5 leads. The reviewer's decision and the snapshot refresh came next. This gave one record for each instrument. That was enough to name each instrument in a brief, but not enough detail to work from. Development plan item US.3 adds the detail.
 
 ### J.4 Sector packs, as overlays
 
-Each engagement app has an overlay file per jurisdiction, `content/overlays/<code>.json`, and a tool that builds a pack from it on top of the baseline. Write the overlay once per app:
+Each engagement app has an overlay file for each jurisdiction, `content/overlays/<code>.json`. A tool builds a pack from the overlay file and the baseline. Write the overlay once for each app:
 
 | App | File and tool | What the overlay supplies |
 | --- | --- | --- |
-| AI Board Direction | `content/overlays/us.json`; `node tools/sync-overlays.mjs && node tools/build-content.mjs` | Per pack: id, name, sector, baseline, the instruments it draws on in one sentence, failure cases for the director briefing, and uses to consider ruling out at B3, each naming its instruments |
+| AI Board Direction | `content/overlays/us.json`; `node tools/sync-overlays.mjs && node tools/build-content.mjs` | For each pack: ID, name, sector, baseline, a one-sentence summary of the instruments it uses, examples of AI failures for the director briefing, and uses the board may want to rule out at B3. Each names its instruments |
 | AI Risk Appetite | `content/overlays/us.json`; `node tools/build-overlay-packs.mjs && node tools/build-content.mjs` | The documents an entity in the sector usually holds (inputs I1 to I11) and, where the sector needs it, the consequence prompt at decision 2 (health care and critical infrastructure) |
 | AI Use Assessment | `content/overlays/us.json`; `node tools/build-overlay-packs.mjs && node tools/build-content.mjs` | The document list and the main arrangement type for the sector |
 
-The functions, decisions, measures and areas stay the baseline's; the overlay adds only what the jurisdiction changes. Pack ids follow the pattern `<code><Sector>` (`usBanking`, `usCriticalInfrastructure`).
+The functions, decisions, measures and areas come from the baseline. The overlay adds only what the jurisdiction changes. Pack IDs follow the pattern `<code><Sector>`, for example `usBanking` or `usCriticalInfrastructure`.
 
-You see: a generated pack per main sector in each app; the app's tests (rules, content, browser) passing; the golden copies of the worked examples changing by additions only.
+Result: each app has a generated pack for each main sector. The app's rules, content and browser tests pass. The only changes to the golden copies of the worked examples are additions.
 
-Checks that caught something on the US run, now part of the method:
+These checks found problems during the US work. They are now part of the method:
 
 - The app's set-up must offer the new jurisdiction, and an overlay pack must be offered only in its own jurisdiction.
-- Shared labels must not carry another jurisdiction's wording: the bank, insurer, capital markets and financial institution labels said Singapore and had to be made neutral.
-- A financial institution in the new jurisdiction must not be suggested another jurisdiction's pack.
-- A matter brief for the jurisdiction must import into Use Assessment with its jurisdiction named.
-- Critical infrastructure: the overlay builds on the corporate baseline, and a government-run operator chooses the government baseline in set-up.
+- Shared labels must not use another jurisdiction's wording. For example, the labels for bank, insurer, capital markets and financial institution mentioned Singapore. We had to make them neutral.
+- The app must not suggest another jurisdiction's pack to a financial institution in the new jurisdiction.
+- A matter brief for the jurisdiction must import into AI Use Assessment and show its jurisdiction.
+- For critical infrastructure, the overlay builds on the corporate baseline. An operator run by government chooses the government baseline in set-up.
 
-Done when each main sector opens with its pack in all three apps and every test passes.
+This step is done when each main sector opens with its pack in all 3 apps and every test passes.
 
-*US run:* one pull request per app, five packs each; Board Direction 58, Risk Appetite 41 and Use Assessment 54 browser tests passing.
+*United States:* one pull request for each app, with 5 packs in each. Browser tests passed: 58 in AI Board Direction, 41 in AI Risk Appetite and 54 in AI Use Assessment.
 
 ### J.5 Worked examples
 
-One fictional organisation per main sector, labelled fictional on every screen, run through **every** engagement app in practice mode (the confidentiality app included, with one matter in the jurisdiction's own terms), wired into Triodian Start's try-first links for each sector, and the jurisdiction's regulated example added to the suite's chain test. Each example should exercise the overlay: a US bank's example records a vendor model and a third-party arrangement; a health care example records a patient care decision support tool. Keep the examples free of any real organisation's name.
+Create one fictional organisation for each main sector. Then:
 
-Done when each example opens from Start's link for its sector in every app, the chain test runs the jurisdiction's regulated example through Board Direction, Risk Appetite and Use Assessment in both legs of the suite workflow, and the suite's tests pass.
+- label it as fictional on every screen
+- run it through **every** engagement app in practice mode. This includes Confidentiality Exposure Assessment, with one matter described in the jurisdiction's own terms
+- link it from Triodian Start's try-first links for its sector
+- add the jurisdiction's regulated example to the suite's chain test.
 
-*US run:* five examples (Harlow Ridge Bank, Ashgrove Mutual Insurance Company, Quillfield Securities, Fernhollow Health, Ridgeline Power & Transmission), the bank and insurer through Board Direction, Risk Appetite and Use Assessment, the rest in AI Board Direction only; no confidentiality matter; nothing in the chain test; Triodian Start gained a United States row but its securities, health and critical-infrastructure links fall back to each app's first example. Found on the way: every output had carried Australian evidence tags whatever the pack, so the evidence module now takes the jurisdiction and, outside Australia, tags ISO/IEC 42001 only, which is the gap J.10 closes.
+Each example should use the overlay. For example, a US bank's example records a vendor model and a third-party arrangement. A health care example records a patient care decision support tool. Do not use the name of any real organisation.
+
+This step is done when:
+
+- each example opens from Triodian Start's link for its sector in every app
+- the chain test runs the jurisdiction's regulated example through AI Board Direction, AI Risk Appetite and AI Use Assessment, in both parts of the suite workflow
+- the suite's tests pass.
+
+*United States:* 5 examples: Harlow Ridge Bank, Ashgrove Mutual Insurance Company, Quillfield Securities, Fernhollow Health and Ridgeline Power & Transmission.
+
+- The bank and insurer run through AI Board Direction, AI Risk Appetite and AI Use Assessment. The others run in AI Board Direction only.
+- There is no confidentiality matter yet.
+- The chain test does not include a US example yet.
+- Triodian Start has a United States row. Its securities, health and critical infrastructure links go to each app's first example instead.
+
+We also found that every output had Australian evidence tags, no matter which pack was used. The evidence module now uses the jurisdiction. Outside Australia, it adds ISO/IEC 42001 tags only. Step J.10 fixes this gap.
 
 ### J.6 Installer and configuration
 
-In triodian-install, add the jurisdiction code, its default sector and its currency to the installer's choices and to each app's `wrangler.jsonc` defaults. Fees for the jurisdiction are set at that market's levels in its own currency, not converted.
+In triodian-install, add the jurisdiction code, its default sector and its currency to the installer's choices. Add them to the defaults in each app's `wrangler.jsonc` too. Set fees for the jurisdiction at that market's levels, in its own currency. Do not convert them from another currency.
 
-Done when a test deployment installs with the new jurisdiction and opens each app on the right pack.
+This step is done when a test deployment installs with the new jurisdiction and opens each app with the right pack.
 
-*US run:* the installer offers the United States, and each app starts a new engagement on the jurisdiction's own pack for the sector, else its overlay on the baseline, else the baseline; a test checks that every sector the installer offers lands on a pack of its jurisdiction or a baseline. Found on the way: only AI Board Direction had read the installer's defaults, so a US install of the other two apps had started on an Australian pack. No currency setting exists in the apps; amounts are free text, and fees are a website matter.
+*United States:* the installer offers the United States. Each app starts a new engagement with the jurisdiction's pack for the sector. If there is no pack, it uses the overlay on the baseline. If there is no overlay, it uses the baseline. A test checks that every sector the installer offers opens with a pack for its jurisdiction or a baseline.
 
-## After the six steps
+We also found that only AI Board Direction read the installer's defaults. A US install of the other 2 apps started with an Australian pack. The apps have no currency setting. Amounts are free text, and fees are handled on the website.
 
-The US run added three steps to the method, which the Metamodel page now carries:
+## After the 6 steps
 
-- **J.7 Sweep the earlier jurisdictions' terms.** Shared labels, method texts and coverage lines written for the first jurisdiction leak into the next: supervisor names on shared labels, fees in one currency, a law firm named as counsel. Search for them and make them neutral or per-jurisdiction.
-- **J.8 The website.** The jurisdiction page, who it is for, the fee schedule in local currency and the cost estimator; these are Triodian's, not part of the open-source suite.
-- **J.9 Review and re-check.** A lawyer admitted in the jurisdiction reads the research note, the packs, the evidence mapping and the mapping pages before the pages are promoted; the research note is re-checked each quarter with the other jurisdictions'.
-- **J.10 Evidence regimes and jurisdiction-bound wording** (added 16 November, from the US parity comparison). Five things stay the first jurisdiction's unless a step makes them the new one's: the evidence index (`public/shared/evidence.js`, identical in the three apps) needs a mapping per main sector to the jurisdiction's own regime beside the shared ISO/IEC 42001 and NIST AI RMF columns; the automated-decisions question, the privilege marking, the notification-hours default and the output footers take their text from the overlay; the Atlas jurisdiction matrix carries the jurisdiction's incident clocks; the security answer pack gains the section that jurisdiction's reviewer asks for; and the running-an-engagement guides gain a variant of each section that names an instrument. Done when the evidence index for the jurisdiction's regulated example lists its regime by instrument, a test per app shows no screen or output of an engagement in the jurisdiction names another jurisdiction's instrument, regulator or date, and the mapping is marked as the suite's reading for counsel to confirm.
+The US work added 4 steps to the method. The Metamodel page now includes them:
+
+- **J.7 Remove terms from earlier jurisdictions.** Shared labels, method text and coverage lines written for the first jurisdiction can appear in the next one. Examples are supervisor names on shared labels, fees in one currency and a law firm named as counsel. Search for these and make them neutral or specific to each jurisdiction.
+- **J.8 Update the website.** Add the jurisdiction page, who it is for, the fee schedule in local currency and the cost estimator. These belong to Triodian. They are not part of the open-source suite.
+- **J.9 Review and check again.** Before the pages are published, a lawyer admitted in the jurisdiction reads the research note, the packs, the evidence mapping and the mapping pages. Check the research note every quarter, with the other jurisdictions' notes.
+- **J.10 Evidence regimes and wording specific to the jurisdiction.** We added this step on 16 November, after comparing the US with Australia. Unless you change them, 5 things still use the first jurisdiction's content:
+  1. The evidence index (`public/shared/evidence.js`, identical in the 3 apps). It needs a mapping for each main sector to the jurisdiction's own regime, next to the shared ISO/IEC 42001 and NIST AI RMF columns.
+  2. The automated decisions question, the privilege marking, the default notification hours and the output footers. These must take their text from the overlay.
+  3. The Atlas jurisdiction matrix. It must include the jurisdiction's incident reporting deadlines.
+  4. The security answers. Add the section that the jurisdiction's reviewers ask for.
+  5. The running an engagement guides. Add a version of each section that names an instrument.
+
+  This step is done when:
+  - the evidence index for the jurisdiction's regulated example lists its regime by instrument
+  - a test in each app shows that no screen or output for the jurisdiction names another jurisdiction's instrument, regulator or date
+  - the mapping is marked as the suite's reading, for counsel to confirm.
 
 ## The docs site
 
-Part of parity, not beside it: add the jurisdiction to `jurisdictions.json` in Triodian/docs as `planned` when J.1 starts and `available` only when J.5, J.6 and J.10 have landed; write its concept page (the [United States](/concepts/united-states) page is the pattern), its mapping pages (one per sector overlay plus one for cross-sector law) and the jurisdiction's variant of each running-an-engagement section that names an instrument. A jurisdiction whose guides still read as the first jurisdiction's is not available, whatever the picker says.
+The documentation is part of adding a jurisdiction. You need to:
+
+- add the jurisdiction to `jurisdictions.json` in Triodian/docs. Mark it `planned` when J.1 starts. Mark it `available` only when J.5, J.6 and J.10 are complete
+- write its concept page, using the [United States](/concepts/united-states) page as a model
+- write its mapping pages, one for each sector overlay and one for laws that apply across sectors
+- write the jurisdiction's version of each running an engagement section that names an instrument.
+
+If the guides still describe the first jurisdiction, the new jurisdiction is not available, even if the picker shows it.
 
 ## If something fails
 
 | Symptom | Cause | Fix |
 | --- | --- | --- |
-| Validator rejects the sectors file | More than five `mainSector`, or a `baselineProfiles` id that does not exist | Reduce the main sectors; check the id against `baseline-profiles.json` |
-| A record is rejected at submission | Tier does not match status: a not-in-force instrument marked binding | Retier to anticipated and resubmit |
+| Validator rejects the sectors file | More than 5 `mainSector` entries, or a `baselineProfiles` ID that does not exist | Reduce the main sectors. Check the ID against `baseline-profiles.json` |
+| A record is rejected when you submit it | The tier does not match the status. For example, an instrument not yet in force is marked binding | Change the tier to anticipated and submit again |
 | The pack does not appear in set-up | The jurisdiction is not offered, or the pack is filtered to another jurisdiction | Check the set-up jurisdiction list and the pack's `sector` code |
-| Golden copies change by more than additions | The overlay has altered baseline content it should only extend | Move the change into the baseline (a Metamodel change) or remove it |
-| The matter brief says the jurisdiction is not covered | Records approved but snapshots not refreshed or not merged | Run the refresh, merge its pull request, redeploy the Atlas |
+| Golden copies change in ways other than additions | The overlay has changed baseline content. It should only add to it | Move the change into the baseline (a Metamodel change) or remove it |
+| The matter brief says the jurisdiction is not covered | The records are approved, but the snapshots are not refreshed or not merged | Run the refresh, merge its pull request and redeploy the Atlas |

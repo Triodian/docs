@@ -2,18 +2,31 @@
 title: "Confidentiality Exposure Assessment framework"
 audience: [practitioner, board]
 apps: [suite]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 5
 ---
 
-The assessment establishes, for one live or recently closed confidential matter, every channel by which the organisation's matter information can reach an external AI model, and what the organisation could show about each if asked whether the information left. The matter can be a deal, a litigation or dispute, an R&D or intellectual property programme, a tender or bid, board papers, or export-controlled data; the method is the same for each, and the type sets the profile's wording, the stages, the adviser types and the names of the information classes. It is the technical half of a joint engagement led by counsel: counsel answers what the organisation can require of its people and advisers and what it must disclose if information leaves; the assessment answers what can actually be shown.
+The assessment looks at one confidential matter that is current or recently closed. It finds every channel through which information about the matter could reach an external artificial intelligence (AI) model. For each channel, it records what the organisation could show if asked whether the information left.
+
+The matter can be:
+
+- a deal
+- a litigation or dispute
+- a research and development (R&D) or intellectual property program
+- a tender or bid
+- board papers
+- export-controlled data.
+
+The method is the same for each type of matter. The type sets the wording of the profile, the stages, the types of adviser and the names of the information classes.
+
+The assessment is the technical part of a joint engagement led by counsel. Counsel answers what the organisation can require of its people and advisers, and what it must disclose if information leaves. The assessment answers what can actually be shown.
 
 | Item | Position |
 | --- | --- |
 | Question answered | For each channel by which matter information can reach an external model, what evidence can the organisation produce that the information did not leave, or of what left and when? |
 | Unit of assessment | One channel: a sanctioned tool and its terms, a personal account or device, an enterprise assistant's reach over the matter folders, a data-room export path, or one adviser's tooling |
-| Instruments | The channel register, the five questions and the non-egress evidence ladder |
-| Duration | Two weeks |
+| Instruments | The channel register, the 5 questions and the non-egress evidence ladder |
+| Duration | 2 weeks |
 | Inputs, through counsel | The matter team and those with access, the adviser list and their letters, the terms that bind the matter, the board's confidentiality position if set, the tenant owner's configuration summary, the sanctioned tools' terms; optionally a summary from a data-security tool of which channels carry matter content |
 | Not required | Matter content, system access, matter data, provider involvement |
 | Outputs | The channel register, one finding per channel, a 90-day plan from what exists, the residual gap marked, a technical annex |
@@ -24,7 +37,7 @@ The assessment establishes, for one live or recently closed confidential matter,
 
 ## The channel taxonomy
 
-Every channel on the register is one of seven kinds, fixed so registers from different matters can be compared.
+Every channel on the register is one of 7 kinds, fixed so registers from different matters can be compared.
 
 | Code | Channel kind | Boundary | Example |
 | --- | --- | --- | --- |
@@ -36,7 +49,9 @@ Every channel on the register is one of seven kinds, fixed so registers from dif
 | K6 | Data-room and document movement | B1 or B2 | Exports, downloads, prints and forwards that land a document where a K1 to K5 channel can reach it |
 | K7 | Adviser tooling | B2 | Each adviser's own AI tools, one entry per adviser |
 
-A ban on a tool does not remove a channel: it usually moves a K2 or K4 channel to K5, where the organisation's controls do not reach. The register records the move. The default register is 12 to 25 channels; completeness, not selection, is the rule, and a channel the organisation says does not exist is still entered with the reason.
+Banning a tool does not remove a channel. It usually moves a K2 or K4 channel to K5, where the organisation's controls do not apply. The register records the move.
+
+The register usually has 12 to 25 channels. The aim is to include every channel, not a selection. If the organisation says a channel does not exist, it is still entered, with the reason.
 
 ## The information classes
 
@@ -53,11 +68,22 @@ Each channel is tagged with the highest class of matter information it can reach
 
 ## Framework at a glance
 
-1. **Fix the matter profile** (P1 to P9): type, code name, matter team and those with access, matter folders by name, advisers, stage, privilege position; agreed with the GC or the executive who approved the brief. 2. **Register the channels**, every one of every kind, with the terms, settings and records that govern it today. 3. **Classify and test**: reach and information class, the indicative rung, the evidence obtainable. 4. **Questions to counsel** in writing; counsel sees every draft first; determinations are recorded against each entry and the finding is set.
+1. **Set the matter profile** (P1 to P9): type, code name, matter team and others with access, matter folders by name, advisers, stage and privilege position. Agree it with the general counsel (GC) or the executive who approved the brief.
+2. **Register the channels.** Include every channel of every kind, with the terms, settings and records that apply to it now.
+3. **Classify and test.** Record the reach and information class, the indicative rung and the evidence that can be obtained.
+4. **Send questions to counsel** in writing. Counsel sees every draft first. Counsel's determinations are recorded against each entry, and the finding is set.
 
-**The logic of a finding.** Indicative rung (what the channel can reach, by rule), required rung (what the organisation can reasonably require, set by the organisation and counsel; where the board has set a confidentiality position it is shown as a suggestion counsel confirms, and only counsel sets the field), obtainable rung (what can be produced for the matter window and independently checked, by test). The finding is the relationship between the last two.
+**How a finding works.** Each channel has 3 positions on the ladder:
 
-**The residual gap.** Every channel that accepts typed or pasted text has the same gap: a paraphrase, or fragments across many prompts, pass every control the organisation owns, because those controls check files, patterns and destinations and none reads meaning. The ladder has a rung for the control that would close it (N6); no control the organisation has deployed reaches it. The assessment names the gap on every channel where it exists, names the class of control that would close it, and leaves the decision to the organisation. It names no product.
+- **Indicative rung:** what information the channel can reach. It is set by rule.
+- **Required rung:** what the organisation can reasonably require. The organisation and counsel set it. If the board has set a confidentiality position, it is shown as a suggestion for counsel to confirm. Only counsel can set this field.
+- **Obtainable rung:** what can be produced for the period of the matter and checked independently. It is set by testing.
+
+The finding compares the required rung with the obtainable rung.
+
+**The remaining gap.** Every channel that accepts typed or pasted text has the same gap. Someone can paraphrase the information, or split it across many prompts, and it will pass every control the organisation has. This is because those controls check files, patterns and destinations. None of them checks meaning.
+
+The ladder has a rung for a control that would close this gap (N6). None of the organisation's current controls reaches that rung. The assessment names the gap on every channel where it exists, and names the type of control that would close it. The organisation decides what to do. The assessment does not name any product.
 
 ## Roles
 
@@ -73,7 +99,7 @@ Each channel is tagged with the highest class of matter information it can reach
 
 Rules of engagement as for the AI Use Assessment: counsel first, legal questions in writing, privilege as counsel determines, one technical party.
 
-## The five questions
+## The 5 questions
 
 | # | Question | Answer scale | Determined by |
 | --- | --- | --- | --- |
@@ -103,7 +129,7 @@ Rules of engagement as for the AI Use Assessment: counsel first, legal questions
 
 Indicative rung by reach: R1 N4, R2 N4, R3 N5, R4 N5; capped at N4 on B2 channels (N5 only where the adviser attests to containment) and N1 on B3 channels. Every adjustment is recorded with its reason.
 
-**Obtainability test.** From the indicative rung, step down until all five conditions pass: produced, aggregate (no matter content), reachable (a right or setting the organisation holds, or a contracting point), checkable, timely for the matter window.
+**Obtainability test.** From the indicative rung, step down until all 5 conditions pass: produced, aggregate (no matter content), reachable (a right or setting the organisation holds, or a contracting point), checkable, timely for the matter window.
 
 ## Findings and the 90-day plan
 
@@ -119,8 +145,23 @@ F5 is expected on most B1 and B3 channels and is reported on each channel so the
 
 ## Outputs
 
-The channel register; one finding per channel; the 90-day plan; the technical annex; the matter confidentiality protocol and board paper, drafted by counsel from the findings; evidence from a data-security summary, where loaded, shown on each channel. Every output carries its privilege marking, version and evidence line. Language rules as for the AI Use Assessment, with the type's exclusions kept out of every document.
+- The channel register.
+- One finding for each channel.
+- The 90-day plan.
+- The technical annex.
+- The matter confidentiality protocol and board paper. Counsel drafts these from the findings.
+- Evidence from a data security summary, if one is loaded, shown on each channel.
+
+Every output shows its privilege marking, version and evidence line. The same language rules apply as for AI Use Assessment. The exclusions for the matter type are kept out of every document.
 
 ## Relationship to the other frameworks
 
-The channel kinds K1 to K7 are the tool kinds in AI Board Direction's step B5, and the board's confidentiality position from that step is imported here as the suggested required rung. The information classes I1 to I6 map to the board's classes G1 to G6 by matter type (a deal or board papers to G6; a dispute, programme or project to G5; a bid to G3). The boundaries B1 to B3 and the obtainability test are those of the AI Use Assessment.
+The channel kinds K1 to K7 are the same as the tool kinds in AI Board Direction's step B5. The board's confidentiality position from that step is imported here as the suggested required rung.
+
+The information classes I1 to I6 map to the board's classes G1 to G6, depending on the matter type:
+
+- a deal or board papers map to G6
+- a dispute, program or project maps to G5
+- a bid maps to G3.
+
+The boundaries B1 to B3 and the obtainability test are the same as in AI Use Assessment.

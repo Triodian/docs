@@ -2,15 +2,15 @@
 title: Deploying
 audience: [practitioner, operator]
 apps: [suite]
-lastReviewed: 2026-11-16
+lastReviewed: 2026-11-17
 sidebar_position: 1
 ---
 
 Guides in this section:
 
-- [Sign-in and SSO](./sign-in-and-sso): how people sign in, and how to put the organisation's own identity provider in front of a deployment
+- [Sign-in and SSO](./sign-in-and-sso): how people sign in, and how to connect the organisation's own identity provider
 
-Being written:
+We are writing:
 
 - Install on your own Cloudflare account
 - Provision a client
@@ -18,4 +18,4 @@ Being written:
 - Rotate keys and API tokens
 - Close a client: archive, then destroy
 
-Until then, the link set-up notes and the runbook are in the [Reference](/reference) section, pulled from the app repositories.
+Until they are ready, use the link set-up notes and the runbook in the [Reference](/reference) section. These come from the app repositories.

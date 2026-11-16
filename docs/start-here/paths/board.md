@@ -2,39 +2,48 @@
 title: Board member or executive
 audience: [board]
 apps: [suite]
-lastReviewed: 2026-11-14
+lastReviewed: 2026-11-17
 sidebar_position: 3
 ---
 
-You take part in an engagement someone else facilitates: a chair, a director, the CEO, the CRO, the CIO or a member of the AI governance team. The app tells you at each step what is yours to do and refuses anything that is not, which is the point: the record shows who proposed, who decided and who reviewed, and nobody can be said to have done another's part.
+This path is for people who take part in an engagement that someone else runs. You might be a chair, a director, the chief executive officer (CEO), the chief risk officer (CRO), the chief information officer (CIO) or a member of the AI governance team.
 
-## What each seat does
+At each step, the app tells you what you need to do. It will not let you do anything that belongs to another role. This means the record shows who proposed, who decided and who reviewed each item. No one can be recorded as doing someone else's part.
 
-| Seat | In AI Board Direction | In AI Risk Appetite and AI Use Assessment |
+## What each role does
+
+| Role | In AI Board Direction | In AI Risk Appetite and AI Use Assessment |
 | --- | --- | --- |
-| Director | Completes the B0 briefing (your answers are visible only to you and the facilitator); proposes positions at B2 to B8 | Reads the board view and the board paper |
-| Chair | Alone records the resolution at B9 and the board directions in connected mode; decides whether to proceed when directors have not completed the briefing | Receives the board paper: the eight positions in plain words, what changed since last year, what the board is asked to resolve |
-| CEO | Confirms the B1 inventory of AI in use (or the technology owner does, where that role is filled); may propose positions | Owns arrangements in the register |
-| CRO (regulated mode) | Takes part in B2 to B8 | Proposes the eight appetite decisions; agrees the working appetite within the board's direction (check K11) |
-| GC | Alone answers the legal questions raised at any step; agrees the scope; a second approver is needed where the GC also acts as counsel | Answers questions for counsel; sets the privilege position |
-| CIO (technology owner) | Confirms each inventory line and each draft measure the AI governance team supplies | Supplies the hand-over of AI in use, evidence and existing assurance; receives scheduled updates; can contest a point on the record |
-| AI governance team | Enters and maintains the list of AI in use, what existing policies and thresholds say, and drafts the measures the board will receive | Supplies the hand-over with the technology owner; the same updates and right to contest |
+| Director | Completes the B0 briefing (only you and the facilitator can see your answers). Proposes positions at B2 to B8 | Reads the board view and the board paper |
+| Chair | Is the only person who records the resolution at B9, and the board directions in connected mode. Decides whether to go ahead when directors have not completed the briefing | Receives the board paper. It sets out the 8 positions in plain words, what changed since last year and what the board is asked to resolve |
+| CEO | Confirms the B1 list of AI in use. If the organisation has a technology owner, that person confirms it instead. May propose positions | Owns arrangements in the register |
+| CRO (regulated mode) | Takes part in B2 to B8 | Proposes the 8 appetite decisions. Agrees the working appetite within the board's direction (check K11) |
+| General counsel (GC) | Is the only person who answers the legal questions raised at any step. Agrees the scope. If the GC also acts as counsel, a second approver is needed | Answers questions for counsel. Sets the privilege position |
+| CIO (technology owner) | Confirms each line in the list of AI in use, and each draft measure the AI governance team supplies | Supplies the handover of AI in use, evidence and existing assurance. Receives scheduled updates. Can dispute a point on the record |
+| AI governance team | Enters and maintains the list of AI in use. Records what existing policies and thresholds say. Drafts the measures the board will receive | Supplies the handover with the technology owner. Receives the same updates and has the same right to dispute a point |
 
-Neither the CIO nor the AI governance team proposes or records a board position, and neither can be the independent reviewer. The CEO seat keeps what it can do today, so an organisation with neither role runs as before.
+The CIO and the AI governance team cannot propose or record a board position. Neither can be the independent reviewer. The CEO role can still do everything it could do before these roles were added. An organisation with no CIO or AI governance team works the same way as before.
 
 ## What to expect
 
-1. **An invitation by email.** Sign-in is a one-time code to your work address; there is no password. Your name, organisation, work email and role are the personal information the app holds about you; it holds no customer, member or client data (see the [privacy notice](/reference/apps/install/privacy)).
-2. **Your actions list.** Each app opens on what is waiting for you: a step to complete, a question to answer, a line to confirm, a resolution due. You are reminded by email when something waits.
-3. **The briefing first (directors).** B0 is a short briefing built from the matter brief and your sector: AI in plain terms, the obligations in scope, directors' duties as they bear on AI, common failure cases, and a few check questions framed as a check of understanding, not a test. Your completion date is recorded; your answers are not shared with other directors.
-4. **Positions, not policy.** At B2 the board records what AI governance should achieve, each goal with an owner and a measure, then its posture by area. The acceptable-use policy, the appetite statement and the action list are generated from those positions; you review the output, you do not draft it.
-5. **Drafts until resolved.** Every output says draft until the chair records the resolution. After that, outputs name the version they came from, and a later change starts a new version with the earlier one kept.
+1. **An email invitation.** You sign in with a one-time code sent to your work email. There is no password. The app holds your name, organisation, work email and role. It holds no customer, member or client data. See the [privacy notice](/reference/apps/install/privacy).
+2. **Your actions list.** When you open an app, it shows what is waiting for you. This might be a step to complete, a question to answer, a line to confirm or a resolution that is due. You also get an email reminder when something is waiting.
+3. **The briefing first (directors).** B0 is a short briefing based on the matter brief and your sector. It covers:
+   - AI in plain terms
+   - the obligations that apply
+   - how directors' duties apply to AI
+   - common ways AI fails
+   - a few questions to check your understanding (this is not a test).
+
+   The app records the date you complete the briefing. Other directors do not see your answers.
+4. **You set positions. The app drafts the policy.** At B2 the board records what AI governance should achieve. Each goal has an owner and a measure. The board then records its position for each area. The app produces the acceptable use policy, the appetite statement and the action list from those positions. You review these outputs. You do not write them.
+5. **Outputs stay as drafts until the resolution.** Every output is marked draft until the chair records the resolution. After that, each output names the version it came from. A later change creates a new version, and the app keeps the earlier one.
 
 ## Read in this order
 
-1. [Get started in 10 minutes](../get-started.md): Harrow Valley Foods shows the ten steps from a director's side in a quarter of an hour.
+1. [Get started in 10 minutes](../get-started.md): the Harrow Valley Foods example shows the 10 steps from a director's point of view. It takes about 15 minutes.
 2. [Concepts](/concepts): roles and separation of duties; modes; versions, drafts and resolutions.
-3. [Frameworks](/frameworks): the method, with its [mapping to the AICD/HTI Director's Guide](/frameworks/mappings/aicd-hti-directors-guide).
+3. [Frameworks](/frameworks): the method, and how it [maps to the Australian Institute of Company Directors (AICD) and Human Technology Institute (HTI) Director's Guide](/frameworks/mappings/aicd-hti-directors-guide).
 4. For the CIO and the AI governance team: [what they supply and what they read](/reference/apps/use-assessment/management-roles-and-privilege).
 
-If a step refuses something you expected to do, the refusal says why, in the words of the role rules. The facilitator can change roles in set-up; the rules themselves are the method and are the same in every deployment.
+If the app stops you from doing something you expected to do, it tells you why, using the wording of the role rules. The facilitator can change who holds each role during set-up. The role rules themselves are part of the method. They are the same in every deployment.

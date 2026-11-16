@@ -3,11 +3,13 @@ title: "OECD AI Principles and Governing with AI"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 12
 ---
 
-The OECD AI Principles (adopted 2019, updated 2024) are the intergovernmental reference for trustworthy AI: inclusive growth, human-centred values, transparency, robustness and accountability. *Governing with Artificial Intelligence* (18 September 2025) surveys 200 use cases across eleven core government functions and sets out a framework for trustworthy AI in government with seven enablers.
+The Organisation for Economic Co-operation and Development (OECD) AI Principles were adopted in 2019 and updated in 2024. Governments use them as the shared reference for trustworthy AI. They cover inclusive growth, human-centred values, transparency, robustness and accountability.
+
+*Governing with Artificial Intelligence* (18 September 2025) reviews 200 examples of AI use across 11 core government functions. It sets out a framework for trustworthy AI in government, with 7 enablers.
 
 ## Where the suite maps
 

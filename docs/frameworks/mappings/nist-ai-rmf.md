@@ -3,11 +3,17 @@ title: "NIST AI Risk Management Framework and profiles"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 11
 ---
 
-The NIST AI Risk Management Framework (AI 100-1, January 2023) is a voluntary framework in four functions: govern, map, measure, manage. It is used widely outside the United States and is one of the two frameworks the NAIC bulletin names as a basis for an insurer's AI programme. Related NIST documents the baselines draw on: the Cybersecurity Framework 2.0 (February 2024); the Cybersecurity Framework Profile for AI (NIST IR 8596, preliminary draft December 2025, still a draft); and the AI RMF Profile for Trustworthy AI in Critical Infrastructure (concept note April 2026, in development).
+The US National Institute of Standards and Technology (NIST) AI Risk Management Framework (AI RMF) (AI 100-1, January 2023) is a voluntary framework. It has 4 functions: govern, map, measure and manage. It is widely used outside the United States. The National Association of Insurance Commissioners (NAIC) bulletin names it as one of 2 frameworks an insurer's AI program can be based on.
+
+The baselines also use these NIST documents:
+
+- the Cybersecurity Framework 2.0 (February 2024)
+- the Cybersecurity Framework Profile for AI (NIST IR 8596). This is still a draft. The preliminary draft was published in December 2025
+- the AI RMF Profile for Trustworthy AI in Critical Infrastructure. A concept note was published in April 2026, and the profile is still being developed.
 
 ## Where the suite maps
 
@@ -17,7 +23,7 @@ The NIST AI Risk Management Framework (AI 100-1, January 2023) is a voluntary fr
 | Map | AI Use Assessment's register and classification; the B1 inventory |
 | Measure | AI Risk Appetite's measures M1 to M12 and the calibration set; the board view |
 | Manage | Findings, the 90-day action list, versions and review dates |
-| Adopted-tier standard | The US overlay records the AI RMF and ISO/IEC 42001 as adopted standards; the Atlas carries them at the adopted tier |
+| Adopted-tier standard | The US overlay records the AI RMF and ISO/IEC 42001 as adopted standards; the Atlas records them in the adopted tier |
 | Draft profiles | Marked draft or in development in the baseline sources and re-checked each quarter |
 
 ## Sources

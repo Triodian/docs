@@ -3,11 +3,17 @@ title: "US critical infrastructure: NERC CIP, TSA directives and CIRCIA"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [us]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 25
 ---
 
-CISA and the sector risk management agencies (FERC and NERC for the bulk electric system, TSA for pipelines and rail, EPA for water) govern AI in critical infrastructure through cybersecurity standards and directives. The pack `usCriticalInfrastructure` is built on the corporate critical infrastructure baseline; a government-run operator chooses the government baseline.
+The Cybersecurity and Infrastructure Security Agency (CISA) and the sector risk management agencies govern AI in critical infrastructure through cybersecurity standards and directives. The sector agencies include:
+
+- the Federal Energy Regulatory Commission (FERC) and the North American Electric Reliability Corporation (NERC), for the bulk electric system
+- the Transportation Security Administration (TSA), for pipelines and rail
+- the Environmental Protection Agency (EPA), for water.
+
+The `usCriticalInfrastructure` pack is built on the corporate critical infrastructure baseline. An operator run by government chooses the government baseline instead.
 
 
 
