@@ -1,26 +1,43 @@
 ---
-title: Baselines, overlays and the four controls
+title: Baselines, overlays and the 4 controls
 audience: [practitioner, board, contributor]
 apps: [suite]
 jurisdictions: [au, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 2
 ---
 
-A **baseline** is what a well-run organisation in a sector would have in place for AI, in any country; an **overlay** is what one jurisdiction's law and regulators add on top. The apps build every sector pack this way, so an organisation anywhere gets a sound starting point, and an organisation in a covered jurisdiction gets its own obligations as well.
+A **baseline** is what a well-run organisation in a sector would have in place for artificial intelligence (AI), in any country. An **overlay** is what one jurisdiction's laws and regulators add to the baseline.
+
+The apps build every sector pack from a baseline and, where there is one, an overlay. This gives any organisation, anywhere, a sound starting point. An organisation in a jurisdiction the suite covers also gets its own obligations.
 
 ## Why the suite has them
 
-The first packs were written for one country and one regulator at a time: a general insurer under APRA, a super trustee, an ADI, a MAS-regulated financial institution. That does not scale to a new jurisdiction, and it leaves an organisation outside Australia and Singapore with nothing. Baselines separate the two kinds of content:
+We wrote the first packs for one country and one regulator at a time. Examples were a general insurer regulated by the Australian Prudential Regulation Authority (APRA), a superannuation trustee, an authorised deposit-taking institution (ADI) and a financial institution regulated by the Monetary Authority of Singapore (MAS).
 
-- The sector's own good practice, drawn from international standard setters and adopted standards (BCBS, FSB, IAIS, IOSCO, WHO, FATF, OECD; ISO/IEC 42001 and 42005, the NIST AI Risk Management Framework, IEC 62443). This changes slowly and is the same everywhere.
-- The jurisdiction's binding and expected obligations, held as records in the Obligations Atlas and brought into an engagement by the matter brief. This is what counsel advises on.
+That approach does not work well for new jurisdictions. It also gives nothing to organisations outside Australia and Singapore. Baselines solve this by separating 2 kinds of content:
 
-A sector in a covered jurisdiction is a baseline plus that jurisdiction's overlay. A sector in any other jurisdiction gets its baseline alone, with the Atlas saying plainly that the jurisdiction is not covered. Superannuation is the one pack with no baseline under it, because it is Australian in a way no international source describes.
+- **Good practice for the sector.** This comes from international standard-setters and adopted standards. The standard-setters are the Basel Committee on Banking Supervision (BCBS), the Financial Stability Board (FSB), the International Association of Insurance Supervisors (IAIS), the International Organization of Securities Commissions (IOSCO), the World Health Organization (WHO), the Financial Action Task Force (FATF) and the Organisation for Economic Co-operation and Development (OECD). The standards are ISO/IEC 42001 and 42005, the US National Institute of Standards and Technology (NIST) AI Risk Management Framework and IEC 62443. Good practice changes slowly and is the same everywhere.
+- **Obligations in the jurisdiction.** These are the obligations that are binding or expected. They are stored as records in the Obligations Atlas, and the matter brief adds them to an engagement. Counsel advises on these.
 
-## The eight baseline profiles
+In a jurisdiction the suite covers, a sector pack is the baseline plus that jurisdiction's overlay. In any other jurisdiction, a sector pack is the baseline only, and the Atlas states that the jurisdiction is not covered.
 
-Banking; insurance; securities and investment advice; health care; payments and money transmission; critical infrastructure, government-managed; critical infrastructure, corporate-managed; government in general. The profiles, their ids, their sources and the governing-body label each uses are set out in the Metamodel's [best-practice baselines](/reference/apps/metamodel/baselines) page, which is the reference; this page explains how they are used.
+Superannuation is the only pack without a baseline. This is because it is specific to Australia, and no international source describes it.
+
+## The 8 baseline profiles
+
+The 8 baseline profiles are:
+
+- banking
+- insurance
+- securities and investment advice
+- health care
+- payments and money transmission
+- critical infrastructure, managed by government
+- critical infrastructure, managed by a company
+- government in general.
+
+The Metamodel's [best-practice baselines](/reference/apps/metamodel/baselines) page lists each profile's ID, its sources and the name it uses for the governing body. This page explains how the apps use the profiles.
 
 Each profile gives the apps:
 
@@ -33,41 +50,47 @@ Each profile gives the apps:
 | Uses boards commonly consider ruling out | Offered at B3 only if the board asks; never a recommendation |
 | Governing body label | "Board" or "accountable authority" throughout the outputs |
 
-Where the governing body is an accountable authority (an agency head, the board of a statutory authority, a minister's delegate), the apps say so wherever they would otherwise say "board".
+Some governing bodies are an accountable authority, such as an agency head, the board of a statutory authority or a minister's delegate. For these, the apps say "accountable authority" instead of "board".
 
 ## Which sectors build on which baseline
 
 | Jurisdiction | Main sectors and their baselines | Overlay |
 | --- | --- | --- |
-| Australia | Superannuation (no baseline); banking; insurance; health; critical infrastructure | APRA, ASIC, OAIC and other obligations from the Atlas; covered in full |
-| Singapore | Banking; insurance; capital markets (securities); listed companies; critical infrastructure | MAS and other obligations from the Atlas; covered in full |
-| United States | Banking; insurance; securities and investment advice; health care; critical infrastructure (corporate baseline, or government for a public operator) | Federal and state instruments by sector from the Atlas: see [United States](./united-states.md); covered in full |
-| Any other jurisdiction | Any of the eight baselines | None: the Atlas says the jurisdiction is not covered, and the apps run on the baseline alone |
+| Australia | Superannuation (no baseline); banking; insurance; health; critical infrastructure | Obligations from the Atlas, including those of APRA, the Australian Securities and Investments Commission (ASIC) and the Office of the Australian Information Commissioner (OAIC). Covered in full |
+| Singapore | Banking; insurance; capital markets (securities); listed companies; critical infrastructure | Obligations from the Atlas, including those of MAS. Covered in full |
+| United States | Banking; insurance; securities and investment advice; health care; critical infrastructure (corporate baseline, or government for a public operator) | Federal and state instruments for each sector, from the Atlas. See [United States](./united-states.md). Covered in full |
+| Any other jurisdiction | Any of the 8 baselines | None. The Atlas states that the jurisdiction is not covered, and the apps use the baseline only |
 
-Payments uses its baseline everywhere without an overlay, because no international standard setter has issued AI-specific guidance for payment providers and the profile says so. Listed companies and organisations outside financial regulation use the general path.
+The payments baseline is used everywhere without an overlay. No international standard-setter has issued guidance on AI for payment providers, and the profile states this. Listed companies, and organisations that are not financially regulated, use the general path.
 
-## The four controls every baseline carries
+## The 4 controls in every baseline
 
-Four controls appear in every baseline because they answer the same problem in every sector: AI use spreads faster than approval, and what is unapproved is unseen. The controls make the approved route quick and measurable, and put the hardest cases (agents that act) under explicit control.
+Every baseline includes the same 4 controls. They deal with a problem every sector has: staff start using AI faster than the organisation can approve it, and the organisation cannot see AI use it has not approved.
 
-| ID | Control | What it asks for | Where it lives in the apps |
+The controls make it quick to get AI use approved, and let the organisation measure how quickly that happens. They also set clear controls for the hardest cases, which are AI agents that take actions.
+
+| ID | Control | What it asks for | Where it appears in the apps |
 | --- | --- | --- | --- |
 | BC1 | Agent controls | For each use at A3 and above: permission scope, an action log, a human checkpoint before actions at A4 and above, and a way to stop the agent | AI Use Assessment, on register entries at A3 and above; output AC |
-| BC2 | Fast path | A board or accountable-authority position that uses at A1 and A2 with consequence C1 or C2 are approved by management within a stated number of days | AI Board Direction at B4; carried in the board directions as event FP, so the file format is unchanged |
-| BC3 | One evidence register | Each provider's evidence (E0 to E6) recorded once and cross-walked to every regime in the matter brief | AI Use Assessment; output ER |
-| BC4 | Productivity measures | Days from request to approval for a new AI use; share of AI use on sanctioned tools | AI Risk Appetite measures M11 and M12 in every pack; AI Board Direction measures BM7 and BM8; both in the board view |
+| BC2 | Fast path | A position from the board or accountable authority that management will approve uses at A1 and A2, with consequence C1 or C2, within a stated number of days | AI Board Direction at B4. Included in the board directions as event FP, so the file format does not change |
+| BC3 | One evidence register | Each provider's evidence (E0 to E6) recorded once and mapped to every regime in the matter brief | AI Use Assessment; output ER |
+| BC4 | Productivity measures | Days from request to approval for a new AI use. Share of AI use on approved tools | AI Risk Appetite measures M11 and M12 in every pack. AI Board Direction measures BM7 and BM8. Both appear in the board view |
 
-BC2 and BC4 rest on the observation that unapproved AI use falls sharply when approved tools are provided quickly (an 89% drop in one vendor's 2026 finding). The evidence is still mostly from surveys and vendors, which is why BC4 exists: each organisation measures its own result rather than taking the claim on trust.
+BC2 and BC4 are based on the finding that unapproved AI use falls sharply when approved tools are provided quickly. One vendor reported an 89% drop in 2026. Most of the evidence so far comes from surveys and vendors. BC4 lets each organisation measure its own result, so it does not have to rely on those claims.
 
 ## What a baseline is not
 
-- **Not an obligation.** A baseline source is cited as guidance or as an adopted standard. Whether an organisation is obliged to do any of it depends on the overlay and is counsel's question. The apps mark baseline content as such.
-- **Not an appetite.** Baselines give starting positions and prompts, never a view on what any organisation's appetite should be.
-- **Not fixed.** Sources marked draft or in development (the NIST Cyber AI Profile, the NIST critical infrastructure profile) are re-checked each quarter, and a change to a profile raises its version.
+- **A baseline is not an obligation.** Baseline sources are cited as guidance or as adopted standards. Whether an organisation must do any of it depends on the overlay. That is a question for counsel. The apps label baseline content so you can tell it apart.
+- **A baseline is not an appetite.** Baselines give starting positions and prompts. They never say what an organisation's appetite should be.
+- **A baseline can change.** We re-check draft sources and sources still being developed every quarter. Examples are the NIST Cyber AI Profile and the NIST critical infrastructure profile. When a profile changes, its version number goes up.
 
 ## For contributors
 
-The profiles and controls are reference data in Triodian_Metamodel (`reference-data/baseline-profiles.json` and `baseline-controls.json`, each with a schema), and each jurisdiction's sectors point to their baselines in `regulated-sectors.json`. Overlays are built by an overlay tool from a per-jurisdiction file (`content/overlays/us.json` was the first), so a pack is generated, not hand-written. The six steps for a new jurisdiction are in [adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction), and the guide [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction) walks them as they were run for the United States.
+The profiles and controls are reference data in Triodian_Metamodel, in `reference-data/baseline-profiles.json` and `baseline-controls.json`. Each file has a schema. Each jurisdiction's sectors link to their baselines in `regulated-sectors.json`.
+
+An overlay tool builds each overlay from a file for that jurisdiction. The first was `content/overlays/us.json`. This means packs are generated, not written by hand.
+
+[Adding a jurisdiction](/reference/apps/metamodel/adding-a-jurisdiction) lists the 6 steps for a new jurisdiction. The guide [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction) shows how we followed those steps for the United States.
 
 
 ## Sources

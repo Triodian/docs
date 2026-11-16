@@ -6,6 +6,8 @@ jurisdictions: [au]             # optional: ids from jurisdictions.json this pag
 lastReviewed: YYYY-MM-DD
 ---
 
+<!-- Write in plain language. See docs/contribute/writing-style.md (based on the Australian Government Style Manual). -->
+
 | Date | Repository | Change | Pull request |
 | --- | --- | --- | --- |
 

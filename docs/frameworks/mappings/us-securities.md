@@ -3,7 +3,7 @@ title: "US securities and investment advice: Regulation S-P and FINRA"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [us]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 23
 ---
 
@@ -15,7 +15,7 @@ The SEC and FINRA, with state securities regulators, govern broker-dealers, advi
 
 | Instrument | Tier | What it reaches |
 | --- | --- | --- |
-| Regulation S-P as amended in 2024 (larger entities from 3 December 2025, smaller from 3 June 2026) | Binding | Incident response programme, customer notification, service provider oversight with 72-hour notice terms |
+| Regulation S-P as amended in 2024 (larger entities from 3 December 2025, smaller from 3 June 2026) | Binding | Incident response program, customer notification, service provider oversight with 72-hour notice terms |
 | FINRA Rule 3110 (supervision) applied to AI; FINRA 2026 Regulatory Oversight Report, generative AI and AI agents section | Binding (rule); expected (report) | Written supervisory procedures covering autonomy, scope, auditability and data for generative AI and agents |
 | SEC predictive data analytics proposal | Withdrawn 12 June 2025 | Not carried; a new proposal would start afresh |
 

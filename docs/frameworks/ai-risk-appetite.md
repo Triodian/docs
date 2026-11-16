@@ -2,21 +2,27 @@
 title: "AI Risk Appetite framework"
 audience: [practitioner, board]
 apps: [suite]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 3
 ---
 
-The framework takes a regulated entity from a general risk appetite statement to a specific appetite for AI: how much authority AI may hold, what failure it will tolerate, and what evidence it expects in return. The board makes eight decisions, within the directions it gave in AI Board Direction, and those decisions become the settings the AI Use Assessment is run against.
+This framework helps a regulated entity move from a general risk appetite statement to a specific appetite for artificial intelligence (AI). The appetite sets:
+
+- how much authority AI may have
+- what failure the entity will tolerate
+- what evidence it expects in return.
+
+The board makes 8 decisions, within the directions it gave in AI Board Direction. Those decisions become the settings that AI Use Assessment uses.
 
 | Item | Position |
 | --- | --- |
 | Question answered | How much authority will the entity allow AI to hold, in its own hands and in its providers', and what evidence does it expect at each level? |
 | Who decides | The board, on the CRO's recommendation; the appetite is the entity's |
-| Who runs it | Counsel leads and facilitates; Triodian supplies the structure and the technical scales |
-| Method | Eight appetite decisions, worked through in two sessions and a challenge round |
-| Duration | Two to three weeks, able to run alongside the first two weeks of the assessment |
+| Who runs it | Counsel leads and runs the sessions. Triodian supplies the structure and the technical scales |
+| Method | 8 appetite decisions, worked through in 2 sessions and a challenge round |
+| Duration | 2 to 3 weeks, able to run alongside the first 2 weeks of the assessment |
 | Inputs | The existing risk appetite statement, critical operations and their tolerances, operational risk thresholds, the AI inventory, the board directions |
-| Outputs | An AI risk appetite statement for board approval, a tolerance and trigger schedule, a board paper, and a calibration set of eleven parameters |
+| Outputs | An AI risk appetite statement for board approval, a tolerance and trigger schedule, a board paper, and a calibration set of 11 parameters |
 | Feeds | The AI Use Assessment; the board view in AI Board Direction |
 
 **Standing rule.** The appetite is the board's decision. What the entity is obliged to have, and whether a stated appetite meets that obligation, are questions for counsel. Triodian supplies definitions and structure and gives no view on either.
@@ -33,11 +39,22 @@ The AI appetite is an extension of the existing risk appetite statement, not a s
 | AI governance framework | Permitted uses and approvals for the entity's own AI | The same question asked of providers and their platforms |
 | Board directions (AI Board Direction, connected mode) | Posture, red lines, reserved decisions, harm, reporting, accountability | Check K11 on every decision |
 
-**Sequence with the assessment.** Appetite sessions run in weeks 1 and 2; a working appetite is agreed by the CRO before classification starts; board approval may follow the assessment, in which case findings are reported against a working appetite, marked as such, and re-run if the board changes a setting. If no appetite is set the assessment runs on defaults and every output is marked uncalibrated.
+**Order of work with the assessment.**
+
+- Appetite sessions run in weeks 1 and 2.
+- The chief risk officer (CRO) agrees a working appetite before classification starts.
+- The board may approve the appetite after the assessment. If so, findings are reported against the working appetite and marked as such. They are run again if the board changes a setting.
+- If no appetite is set, the assessment uses the defaults, and every output is marked uncalibrated.
 
 **One new result.** An entry whose authority tier is higher than the ceiling the board set for that function is flagged **above ceiling**, separately from the evidence finding. An AI use can have all the evidence expected and still hold more authority than the board has accepted.
 
-**The rungs after calibration.** The expected rung is the evidence the board expects for an authority and consequence (decision 3), replacing the indicative rung; the required rung is what the entity can reasonably require, set by the entity and counsel; the obtainable rung is what can in fact be produced and independently checked, set by Triodian by test. The board's expectation is an input to counsel's determination, not a replacement for it; where counsel finds the entity cannot require what the board expects, that difference is itself reported.
+**The rungs after calibration.**
+
+- **Expected rung:** the evidence the board expects for a given authority and consequence (decision 3). It replaces the indicative rung.
+- **Required rung:** what the entity can reasonably require. The entity and counsel set it.
+- **Obtainable rung:** what can actually be produced and checked independently. Triodian sets it by testing.
+
+Counsel takes the board's expectation into account, but it does not replace counsel's determination. If counsel finds the entity cannot require what the board expects, that difference is reported too.
 
 ## Roles
 
@@ -49,13 +66,13 @@ The AI appetite is an extension of the existing risk appetite statement, not a s
 | Accountable persons | Each confirms the positions in their area of responsibility | |
 | Operational risk, second line | Supplies existing thresholds and tolerances; challenges the draft | |
 | AI governance lead | Supplies the inventory and current permitted uses; confirms the appetite is workable | |
-| Counsel | Leads and facilitates; advises on what the board is obliged to set and show; drafts the statement in a form the board can approve | |
-| Triodian | Supplies the eight decisions, scales and calibration set; records positions; checks consistency | States no view on what the appetite should be or whether it meets any obligation |
+| Counsel | Leads and runs the sessions; advises on what the board is obliged to set and show; drafts the statement in a form the board can approve | |
+| Triodian | Supplies the 8 decisions, scales and calibration set; records positions; checks consistency | States no view on what the appetite should be or whether it meets any obligation |
 | An actuarial or consequence adviser, if engaged | Advises the CRO on the consequence thresholds in decision 2 only | Takes no part in the other decisions; any overlap with a review role is disclosed |
 
 Positions come from the entity: on decisions 1 and 3 only the CRO or the entity's risk function proposes a position; counsel and Triodian explain, answer questions and record. Sessions and drafts are scoped through counsel on the position counsel determines.
 
-## The eight decisions
+## The 8 decisions
 
 | # | Decision | Question to the board | Answered as | Parameter |
 | --- | --- | --- | --- | --- |
@@ -73,13 +90,13 @@ Decisions 1 to 3 are taken in session 1 and 4 to 8 in session 2. The scales are 
 ### Decision detail
 
 - **1 Authority.** One ceiling per cell of function by own staff, inside a provider, platform behind a provider, with any condition (a limit per transaction, triage only) that the assessment can test from documents. Starting position: where a named person signs off today. Each board direction BD1 to BD3 is shown on the decision; K11 holds back a ceiling past the board's posture.
-- **2 Consequence thresholds.** The entity's own thresholds for C3 financial loss (an amount per event and per period), C4 harm to customers or members (number affected and kinds of harm), C5 critical-operation disruption (the tolerance already approved for each critical operation). Existing thresholds are used unchanged; a new one is set only where none exists. For health care and critical infrastructure packs, a consequence question is asked here.
+- **2 Consequence thresholds.** The entity's own thresholds for C3 financial loss (an amount per event and per period), C4 harm to customers or members (number affected and kinds of harm), C5 critical-operation disruption (the tolerance already approved for each critical operation). Existing thresholds are used without change. A new threshold is set only where none exists. In the health care and critical infrastructure packs, a consequence question is asked here.
 - **3 Evidence expectation.** One rung per cell of authority A1 to A6 by consequence C1 to C5, starting from what the entity holds today. Moving right or down the rung may stay level or rise, never fall.
 - **4 Shortfall tolerance.** Priority from gap size and consequence (1 rung: low, low, medium; 2 rungs: low, medium, high; 3 or more: medium, high, high across C1 or C2, C3, C4 or C5); time limit and interim position per priority (high: reported to the next risk committee with a plan; medium: closed by the next contracting point; low: reviewed annually).
 - **5 Unknowns.** Not-known facts allowed per entry, how long an F4 finding may stand, and the minimum confidence in the obtainable rung, by consequence band; none allowed among the facts that decide the authority tier at C4 or C5.
 - **6 Location and concentration.** Each jurisdiction in the register marked accepted, escalate (a question to counsel per entry) or not accepted (flagged as above ceiling), separately for where the provider is and where the AI runs; a limit on the share of critical operations that may depend on one platform or model provider.
 - **7 Triggers.** TR1 authority change; TR2 evidence lapse; TR3 tolerance signal; TR4 AI incident that could disrupt a critical operation; TR5 other AI incident; TR6 model or platform change; TR7 sub-contractor change; TR8 location change; each with a measure, threshold, time and recipient. Each time must leave the entity able to assess the event and meet its own notification obligations; counsel settles the timing.
-- **8 Change and review.** A new arrangement at A3 or above is assessed before it starts; TR1, TR6, TR7 or TR8 firing reclassifies the entry; a contracting point reviews the evidence terms; a material incident revisits decisions 1, 3 and 7; new guidance revisits all eight on counsel's advice; review at least annually.
+- **8 Change and review.** A new arrangement at A3 or above is assessed before it starts; TR1, TR6, TR7 or TR8 firing reclassifies the entry; a contracting point reviews the evidence terms; a material incident revisits decisions 1, 3 and 7; new guidance revisits all 8 on counsel's advice; review at least annually.
 
 ## Process
 
@@ -88,15 +105,20 @@ Inputs, requested through counsel before session 1: I1 risk appetite statement; 
 | Step | When | Activity | Output |
 | --- | --- | --- | --- |
 | 1 Prepare | Week 1 | Fill every starting position an existing document answers; list conflicts | Pre-read pack |
-| 2 Session 1 | Week 1, two hours | Decisions 1 to 3, each position recorded with who proposed it and any dissent | Draft ceilings, thresholds, expectation table |
-| 3 Session 2 | Week 2, two hours | Decisions 4 to 8 | Draft tolerances, triggers, review terms |
+| 2 Session 1 | Week 1, 2 hours | Decisions 1 to 3, each position recorded with who proposed it and any dissent | Draft ceilings, thresholds, expectation table |
+| 3 Session 2 | Week 2, 2 hours | Decisions 4 to 8 | Draft tolerances, triggers, review terms |
 | 4 Consistency check | Week 2 | Checks K1 to K11; conflicts go back to the CRO | Check report |
 | 5 Working appetite | End of week 2 | CRO agrees; calibration set issued to the assessment | Calibration set, working |
 | 6 Challenge | Week 3 | Second line and each accountable person review their area | Challenge log |
 | 7 Statement | Week 3 | Counsel settles the statement and schedule | Final draft |
 | 8 Approval | Next committee or board meeting | Board approves, amends or returns | Approved statement; calibration set re-issued, approved |
 
-One decision at a time, in order; start from what is already decided; test each decision against a real arrangement; record positions, not discussion; park the legal questions; leave nothing blank (a cell the room cannot fill is recorded as not set, with who will set it and by when).
+- Take one decision at a time, in order.
+- Start from what is already decided.
+- Test each decision against a real arrangement.
+- Record positions, not discussion.
+- Set legal questions aside for counsel.
+- Leave nothing blank. If the group cannot fill a cell, record it as not set, with who will set it and by when.
 
 ## Outputs
 
@@ -119,11 +141,11 @@ One decision at a time, in order; start from what is already decided; test each 
 | M11 | Days from request to approval for a new AI use (BC4) | Each risk committee |
 | M12 | Share of AI use on sanctioned tools (BC4) | Each risk committee |
 
-**Board paper**: the eight positions in plain words, changes since last year, and what the board is asked to resolve, with a draft resolution. **Board view**: served to AI Board Direction for each board meeting. **Session record**: a working paper.
+**Board paper**: the 8 positions in plain words, changes since last year, and what the board is asked to resolve, with a draft resolution. **Board view**: served to AI Board Direction for each board meeting. **Session record**: a working paper.
 
 ## The calibration set
 
-Eleven parameters the assessment reads, issued as one file (`triodian.calibration`) with a version, status (default, working, approved) and date; every finding records the version it was made under.
+11 parameters the assessment reads, issued as one file (`triodian.calibration`) with a version, status (default, working, approved) and date; every finding records the version it was made under.
 
 | ID | Parameter | From decision | Default if not set |
 | --- | --- | --- | --- |
@@ -136,10 +158,14 @@ Eleven parameters the assessment reads, issued as one file (`triodian.calibratio
 | P7 | Minimum confidence | 5 | None; reported beside the finding |
 | P8 | Location markings | 6 | All locations escalate |
 | P9 | Concentration limit | 6 | None; the share is reported |
-| P10 | Triggers | 7 | The eight triggers without thresholds or times |
+| P10 | Triggers | 7 | The 8 triggers without thresholds or times |
 | P11 | Change events and review interval | 8 | Annual |
 
-A change of version re-runs the rules (expected rungs, flags, priorities, due dates) and leaves facts, classifications and counsel's determinations untouched; the difference is reported entry by entry; partial sets fall back to defaults and say so; the set carries no client facts.
+When the version changes, the rules run again. This updates expected rungs, flags, priorities and due dates. It does not change facts, classifications or counsel's determinations.
+
+- The differences are reported for each entry.
+- If a set is incomplete, the defaults are used, and the outputs say so.
+- The set contains no client facts.
 
 **Reference expectation table** (used when no appetite is set; shown in a session only if asked):
 
@@ -166,8 +192,15 @@ A change of version re-runs the rules (expected rungs, flags, priorities, due da
 | K8 | Owned | A position or measure has no accountable person |
 | K9 | Timed | A trigger has no time, or one longer than the notification procedure can absorb |
 | K10 | Reachable | The expectation for the most common pair is above anything currently obtained in the set (a warning, not a failure of logic) |
-| K11 | Within the board's direction | A position goes past a board direction, or a client limit from an ISO/IEC 42001 limits register sits above the appetite or has no board position above it; agreeing the working appetite is blocked until a reason and a board revisit are recorded |
+| K11 | Within the board's direction | A position goes past a board direction, or a client limit from an ISO/IEC 42001 limits register is above the appetite or has no board position above it; agreeing the working appetite is blocked until a reason and a board revisit are recorded |
 
 ## Governance
 
-The CRO owns the statement; the board or its risk committee approves; each measure has its named accountable person; exceptions are approved by the person named in decision 1, time-limited and reported as M1; the schedule changes by the CRO and is reported to the next committee, the statement only by the board; review at the interval set in decision 8 and on any change event. The approved statement, the schedule and each calibration version are kept together; session record and challenge log are working papers handled as counsel directs.
+- The CRO owns the statement.
+- The board or its risk committee approves it.
+- Each measure has a named accountable person.
+- Exceptions are approved by the person named in decision 1. They have a time limit and are reported as M1.
+- The CRO can change the schedule and reports the change to the next committee. Only the board can change the statement.
+- The statement is reviewed at the interval set in decision 8, and after any change event.
+
+The approved statement, the schedule and each calibration version are kept together. The session record and challenge log are working papers. Counsel decides how they are handled.

@@ -3,11 +3,11 @@ title: "FSB: third-party toolkit and AI monitoring"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 14
 ---
 
-Two Financial Stability Board documents inform the financial-sector baselines: *Enhancing third-party risk management and oversight: a toolkit* (December 2023) and *Monitoring adoption of AI and related vulnerabilities in the financial sector* (10 October 2025), which addresses third-party concentration in the generative AI supply chain. The FSB's sound practices on AI of October 2026 are carried in the Atlas as an expected-tier record and are being folded into the same baselines.
+The financial sector baselines use 2 documents from the Financial Stability Board (FSB): *Enhancing third-party risk management and oversight: a toolkit* (December 2023) and *Monitoring adoption of AI and related vulnerabilities in the financial sector* (10 October 2025), which addresses third-party concentration in the generative AI supply chain. The FSB's sound practices on AI (October 2026) are recorded in the Atlas in the expected tier. We are adding them to the same baselines.
 
 ## Where the suite maps
 

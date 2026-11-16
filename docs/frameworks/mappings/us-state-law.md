@@ -3,11 +3,11 @@ title: "US cross-sector state law: California, Texas, Colorado"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [us]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 26
 ---
 
-Three state laws apply across all five US sectors and are recorded in the Atlas under the United States with the state in the record's title.
+3 state laws apply across all 5 US sectors and are recorded in the Atlas under the United States with the state in the record's title.
 
 
 

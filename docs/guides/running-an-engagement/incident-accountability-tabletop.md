@@ -6,32 +6,94 @@ lastReviewed: 2026-11-17
 sidebar_position: 5
 ---
 
-For the practitioner or Triodian facilitator running *The Saturday Morning Question*, the half-day tabletop of the AI Incident Accountability module (Shape A), and for the board, GC, CRO and arrangement owners in the room. At the end the client holds, from AI Use Assessment, an incident readiness record for each AI arrangement (DL11), an evidence-preservation letter per record holder for counsel to settle (DL12), the exercise recorded as a validation event (VE), and a gap list with owners.
+This guide is for the practitioner or Triodian facilitator who runs *The Saturday Morning Question*. This is the half-day tabletop exercise in the AI Incident Accountability module (Shape A). It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
 
-The module is not a crisis tool. It may be used during an incident and is never required during one: every output downloads as Word, PDF or Markdown, and the client's own crisis tool stays on the critical path. The app starts no notification clock and decides that no notification is due; counsel confirms before anything is sent.
+At the end, the client has these outputs from AI Use Assessment:
+
+- an incident readiness record for each AI arrangement (DL11)
+- an evidence-preservation letter for each record holder, for counsel to finalise (DL12)
+- a record of the exercise as a validation event (VE)
+- a list of gaps, each with an owner.
+
+The module is not a crisis management tool. The client can use it during an incident, but does not need it. Every output downloads as Word, PDF or Markdown. The client keeps using its own crisis tool during an incident. The app does not start any notification deadline, and it does not decide whether a notification is due. Counsel must confirm before anything is sent.
 
 :::note Status
-In build. The outputs landed in AI Use Assessment on 17 November 2026 (use-assessment #45). The module is described as delivered only once it is live on the test site, the tabletop has had its internal dry run and counsel has read the hold-letter template and the clock lines.
+In build. The outputs were added to AI Use Assessment on 17 November 2026 (use-assessment #45). We will describe the module as delivered only when:
+
+- it is live on the test site
+- we have done an internal dry run of the tabletop
+- counsel has read the hold letter template and the wording about notification deadlines.
 :::
 
 ## Before you start
 
-- An AI Use Assessment deployment with a register, even a partial one. Where there is none, the first hour of the room builds a register of three AI uses, and the tabletop becomes the start of a full assessment.
-- The calibration set loaded in Use Assessment set-up (from the AI Risk Appetite app over the binding, or from a file). Without it the room has no tolerances or triggers to test against; say so, and that is the first finding.
-- People with roles: a Triodian role to record (method owner or assessor), the CRO or an arrangement owner, the GC, counsel, and an independent reviewer for the review afterwards.
-- The scenario pack, which carries the facts of 13 November 2026 at the briefing's version, the injects and their times, and the caveats.
+You need:
+
+- **An AI Use Assessment deployment with a register.** A partial register is fine. If there is no register, spend the first hour building a register of 3 AI uses. The tabletop then becomes the start of a full assessment.
+- **The calibration set loaded in AI Use Assessment set-up.** Load it from the AI Risk Appetite app through the binding, or from a file. Without it, there are no tolerances or triggers to test against. If so, tell the group. This is the first finding.
+- **People in each role:**
+  - someone from Triodian to record (method owner or assessor)
+  - the CRO or an arrangement owner
+  - the GC
+  - counsel
+  - an independent reviewer for the review afterwards.
+- **The scenario pack.** It contains the facts of 13 November 2026 as at the briefing's version, the injects (new information released during the exercise) and their times, and the caveats.
 
 ## Steps
 
-1. **Brief (0:00).** The facilitator gives the facts in ten minutes and the thesis in one sentence: an accountability gap, not a technology failure. The recorder opens the Review screen in Use Assessment, chooses *Add an exercise or incident*, and gives it a title and date. You see the event's eight segments on one card.
-2. **Which AI systems are near this? (0:15)** Read inject 1: a vendor change on shared infrastructure on a Friday afternoon; an AI service expanded across the same infrastructure three days earlier; a critical operation down. The recorder types the infrastructure affected. You see *Register hits*: the entries whose readiness record, system name or platform names it. Tick the AI uses present; type anything named in the room that is not on the register into *unknowns*. If nothing hits, the shared infrastructure is not on the register: record it on each entry's Classify screen (step 3) and come back.
-3. **What record would show what they did? (0:45)** For each AI use present, open its Classify screen and fill the *Incident readiness* card: the shared infrastructure; the runtime records that would show what it did, when and under whose authority; who holds them and the holder's name; the agreement clause that reaches them; the production time; the accountable person for the system, the shared infrastructure and the change process. A blank is not an error; DL11 lists it as a gap with the role that owns it. Back on the event, add one row per party under *What each party said, and what it showed*; at this point every *showed* reads "nothing yet".
-4. **Is a tolerance breached? Has a trigger fired? (1:30)** Read inject 2. For each tolerance (P2) and trigger (P10) from the calibration set, record breached, not breached or not known yet, and the basis; for a fired trigger, when. You see, for a fired trigger, who the appetite says is notified and by when. Then mark each notification clock the jurisdiction and sector bring as running, not running or not known, from the moment the entity became aware or a time you give; you see when each would end, with its basis line (*per the Atlas as at [date]*, or *Triodian's reading*, and always *confirm with counsel*). The GC confirms the clocks. The person who asserted the test is recorded and cannot review the event later.
-5. **The vendor has denied it. Do we? (2:00)** Read inject 3: the vendor's denial on social media, the journalist, the regulator's 9am question. Record the agreed external line, who may speak to it, and what may be disclosed while the cause is unknown. Only counsel can settle the line; the *Settle the line as counsel* button is greyed for everyone else, and the app says why.
-6. **Who holds the seam? (2:30)** You see, for each AI use present, the three accountable persons from its readiness record. Type the seams between them and the seam no one holds.
-7. **The finding goes the other way (3:00).** Read inject 4: the cause was the AI service's configuration push; the vendor's statement was not borne out by its own log. Record the finding as the investigators concluded it (the app does not investigate), and how long each record holder took to produce its records against the readiness record's production time. Update each party's *showed*.
-8. **Readiness record and actions (3:30).** Open Outputs. DL11 is the readiness record with its gap list; DL12 drafts one hold letter per record holder, where Triodian or counsel adds the addressee, the date to preserve from and a note, and counsel marks each letter settled; VE is the exercise record. Record gap owners and dates under *Actions*. Download each as Word or PDF. The independent reviewer records the review on the event afterwards; once reviewed, the tolerance and trigger test is fixed.
+1. **Brief the group (0:00).** The facilitator presents the facts in 10 minutes. They then state the main point in one sentence: the problem is a gap in accountability, not a failure of technology. The recorder opens the Review screen in AI Use Assessment, selects *Add an exercise or incident*, and enters a title and date. The event's 8 sections appear on one card.
+2. **Which AI systems are affected? (0:15)** Read inject 1. A vendor made a change to shared infrastructure on a Friday afternoon. 3 days earlier, an AI service was expanded across the same infrastructure. A critical operation is now down.
 
-## What you have now
+   The recorder types the infrastructure affected. *Register hits* then shows the register entries that name it in their readiness record, system name or platform. Tick the AI uses that are involved. If the group names anything that is not on the register, type it into *unknowns*.
 
-DL11, DL12 and VE, marked draft until the phase 3 gate is met and the legal-line check is clear; the gap list with owners at the end of DL11; the event on the Findings card against each arrangement whose AI uses were present; and the three outputs in the evidence feed that AI Board Direction gathers into the evidence index. Where the exercise shows a tolerance or trigger was set wrongly, that goes to the next appetite review in AI Risk Appetite; the app changes no appetite position and no board direction. The 90-minute board-only cut, and the facts and injects, are in the scenario pack.
+   If there are no hits, the shared infrastructure is not on the register. Record it on each entry's Classify screen (step 3), then come back to this step.
+3. **What records would show what each system did? (0:45)** For each AI use involved, open its Classify screen and fill in the *Incident readiness* card:
+   - the shared infrastructure
+   - the runtime records that would show what the system did, when and with whose authority
+   - who holds those records, and the holder's name
+   - the clause in the agreement that gives access to them
+   - how long it takes to produce them
+   - the person accountable for the system, for the shared infrastructure and for the change process.
+
+   It is fine to leave a field blank. DL11 lists each blank as a gap, with the role responsible for it.
+
+   Go back to the event. Under *What each party said, and what it showed*, add one row for each party. At this point, every *showed* entry says "nothing yet".
+4. **Has a tolerance been breached? Has a trigger fired? (1:30)** Read inject 2. For each tolerance (P2) and trigger (P10) in the calibration set, record one of:
+   - breached
+   - not breached
+   - not known yet.
+
+   Record the reason. For a trigger that fired, record when it fired. The app then shows who the appetite says must be told, and by when.
+
+   Next, for each notification deadline that applies in the jurisdiction and sector, record whether it is running, not running or not known. It runs from when the entity became aware, or from a time you enter. The app shows when each deadline would end and the basis for it. The basis is either *per the Atlas as at [date]* or *Triodian's reading*, and always says *confirm with counsel*.
+
+   The GC confirms the deadlines. The app records who made each assessment. That person cannot review the event later.
+5. **The vendor has denied responsibility. What do we say? (2:00)** Read inject 3. The vendor has denied responsibility on social media, a journalist is asking questions, and the regulator has asked a question for 9 am. Record:
+   - the agreed public statement
+   - who may speak about it
+   - what may be disclosed while the cause is still unknown.
+
+   Only counsel can finalise the statement. The *Settle the line as counsel* button is greyed out for everyone else, and the app explains why.
+6. **Who is accountable where responsibilities meet? (2:30)** For each AI use involved, the app shows the 3 accountable people from its readiness record. Type in the points where their responsibilities meet. Also type in any point where no one is responsible.
+7. **The finding changes (3:00).** Read inject 4. The cause was a configuration change pushed by the AI service. The vendor's own log did not support its statement.
+
+   Record the finding as the investigators concluded it. The app does not investigate. Record how long each record holder took to produce its records, compared with the production time in the readiness record. Update each party's *showed* entry.
+8. **Produce the readiness record and actions (3:30).** Open Outputs:
+   - DL11 is the readiness record, with its list of gaps.
+   - DL12 drafts one hold letter for each record holder. Triodian or counsel adds the person it is addressed to, the date from which records must be kept, and a note. Counsel marks each letter as settled.
+   - VE is the record of the exercise.
+
+   Record an owner and a date for each gap under *Actions*. Download each output as Word or PDF.
+
+   Afterwards, the independent reviewer records the review on the event. Once the event is reviewed, the tolerance and trigger assessment cannot be changed.
+
+## What you have at the end
+
+- **DL11, DL12 and VE.** These are marked draft until the phase 3 gate is met and the legal statement check is clear.
+- **The list of gaps with owners**, at the end of DL11.
+- **The event on the Findings card** of each arrangement whose AI uses were involved.
+- **The 3 outputs in the evidence feed.** AI Board Direction collects these into the evidence index.
+
+The exercise may show that a tolerance or trigger was set incorrectly. If so, raise it at the next appetite review in AI Risk Appetite. The app does not change any appetite position or board direction itself.
+
+The scenario pack has a 90-minute version for the board only, and the facts and injects.

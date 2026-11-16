@@ -3,11 +3,15 @@ title: "IOSCO: AI in capital markets"
 audience: [practitioner, board]
 apps: [suite]
 jurisdictions: [au, us, other]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 17
 ---
 
-Three IOSCO reports inform the securities baseline: *The use of AI and machine learning by market intermediaries and asset managers* (2021, six measures); *Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges* (consultation report, 12 March 2025); and the *Supervisory Toolkit for AI use in Capital Markets* (final report, 25 May 2026).
+The securities baseline uses 3 reports from the International Organization of Securities Commissions (IOSCO):
+
+- *The use of AI and machine learning by market intermediaries and asset managers* (2021, 6 measures)
+- *Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges* (consultation report, 12 March 2025)
+- *Supervisory Toolkit for AI use in Capital Markets* (final report, 25 May 2026).
 
 ## Where the suite maps
 
