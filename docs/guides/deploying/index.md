@@ -2,11 +2,15 @@
 title: Deploying
 audience: [practitioner, operator]
 apps: [suite]
-lastReviewed: 2026-11-14
+lastReviewed: 2026-11-16
 sidebar_position: 1
 ---
 
-Guides in this section, being written:
+Guides in this section:
+
+- [Sign-in and SSO](./sign-in-and-sso): how people sign in, and how to put the organisation's own identity provider in front of a deployment
+
+Being written:
 
 - Install on your own Cloudflare account
 - Provision a client

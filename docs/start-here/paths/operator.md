@@ -2,7 +2,7 @@
 title: Operator
 audience: [operator]
 apps: [suite]
-lastReviewed: 2026-11-14
+lastReviewed: 2026-11-16
 sidebar_position: 4
 ---
 
@@ -27,7 +27,8 @@ The architecture note in the AI Risk Appetite repository, [architecture and the 
 2. **Provision clients (practitioner firms).** The provisioning script takes a client code, the apps wanted and the administrator's email, and stands up a client deployment under your domain; a second run changes nothing. The practice hub lists each client with its stage and open actions, read over a binding, with no names, findings or positions.
 3. **Run it.** Each app's Admin screen manages people and roles; set-up is done in the app. Backups are D1 exports; the runbook says when to take them. Notifications go out by email once an address is set.
 4. **Rotate and close.** The runbook covers rotating the Access session key and API tokens, and closing a client: archive the tables and rows, then destroy the Workers, databases, Access applications and custom domains.
-5. **Answer a security review.** The [security answers](/reference/apps/install/security-answers) page sets out, for a client's CPS 230 and CPS 234 review of Triodian, what data is held (engagement records; no member or customer data), where it is stored, keys and secrets, access, sub-processors and the incident contact, with the [ISO/IEC 27001 Annex A statement](/reference/apps/install/iso27001-annex-a) and [Triodian's ISO/IEC 42001 position](/reference/apps/install/iso42001-position) beside it.
+5. **Put the organisation's identity provider in front.** [Sign-in and SSO](/guides/deploying/sign-in-and-sso): Entra ID, Google Workspace or Okta federated in Cloudflare Access, or OpenID Connect direct on a host Access does not cover; roles stay in the app either way.
+6. **Answer a security review.** The [security answers](/reference/apps/install/security-answers) page sets out, for a client's CPS 230 and CPS 234 review of Triodian, what data is held (engagement records; no member or customer data), where it is stored, keys and secrets, access, sub-processors and the incident contact, with the [ISO/IEC 27001 Annex A statement](/reference/apps/install/iso27001-annex-a) and [Triodian's ISO/IEC 42001 position](/reference/apps/install/iso42001-position) beside it.
 
 ## Read in this order
 
