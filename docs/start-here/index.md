@@ -32,3 +32,4 @@ The suite is written jurisdiction by jurisdiction. Australia and the United Stat
 - [Get started in 10 minutes](./get-started.md): run a worked example in your browser, no sign-up.
 - [Choose your path](./paths/index.md): practitioner, board member or executive, operator, contributor.
 - [Licensing and support](./licensing-and-support.md): what is free, what Triodian charges for, how to get help.
+- [Roadmap](/roadmap): what is being built next and which jurisdictions follow.
