@@ -2,7 +2,7 @@
 title: Contribute
 audience: [contributor]
 apps: [suite]
-lastReviewed: 2026-11-14
+lastReviewed: 2026-11-16
 slug: /contribute
 sidebar_position: 1
 ---
@@ -12,8 +12,8 @@ Every Triodian repository is public on [GitHub](https://github.com/Triodian) and
 - [Security reporting](./security-reporting.md)
 - Architecture of a Triodian app: Worker, D1, the shared identity file, the content build script, the test layout
 - Releases and changelog: one page, newest first, with schema versions
-- Roadmap: what is being built next, in public terms
+- [Roadmap](./roadmap.md): what is being built next, in public terms, and what each item waits on
 - Code of conduct, contributing guide and pull request template: in each repository
 
 
-> The architecture, releases and roadmap pages are being written; until then each repository's README and CONTRIBUTING on [GitHub](https://github.com/Triodian) are the reference.
+> The architecture and releases pages are being written; until then each repository's README and CONTRIBUTING on [GitHub](https://github.com/Triodian) are the reference.
