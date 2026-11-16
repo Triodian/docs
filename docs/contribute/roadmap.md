@@ -24,7 +24,7 @@ The scope of Shape A, and why the suite does not build crisis-management tooling
 
 ## Jurisdictions
 
-A jurisdiction is added by the six steps in [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction): scoping, reference data, the Atlas round, sector overlays, worked examples and the installer, then this site. It appears in the picker as *planned* when scoping starts and as *available* when its packs and examples land. A lawyer admitted in the jurisdiction reads the packs before any organisation there uses them. Any jurisdiction not listed runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere.
+A jurisdiction is added by the six steps in [Add a jurisdiction](/guides/extending-the-suite/add-a-jurisdiction): scoping, reference data, the Atlas round, sector overlays, worked examples and the installer, then this site. It appears in the picker as *planned* when scoping starts and as *available* when its packs and examples land. A lawyer admitted in the jurisdiction reads the packs before any organisation there uses them. Any jurisdiction not listed runs on the [best-practice baselines](/concepts/baselines-overlays-and-controls), which hold everywhere. The order runs across the next three sections: the queued jurisdictions, then the deployment platforms, then the proposed jurisdictions.
 
 | Order | Jurisdiction | Status | Note |
 | --- | --- | --- | --- |
@@ -34,13 +34,30 @@ A jurisdiction is added by the six steps in [Add a jurisdiction](/guides/extendi
 | 1 | European Union | Queued | DORA, the AI Act's deployer duties, the ESAs; one overlay for the Union, member-state law as an overlay on it where a sponsor asks |
 | 2 | United Kingdom | Queued | PRA and FCA, the Critical Third Parties regime, the ICO |
 | 3 | Canada | Queued | OSFI, provincial securities and privacy regulators, Quebec's Law 25 |
-| 4 | New Zealand | Proposed | RBNZ and the FMA; CoFI; the Australian packs port almost whole, and trans-Tasman firms advise on both sides |
-| 5 | Hong Kong | Proposed | HKMA and SFC guidance on generative AI and AI models; PDPO; a common-law, English-language regime shared with the Singapore firms |
-| 6 | United Arab Emirates | Proposed | DFSA and FSRA in the two financial free zones, with the onshore regulators; an English-language common-law regime with the heaviest concentration of international firms outside London |
-| 7 | Switzerland | Proposed | FINMA's guidance on AI governance and risk management; a narrow, well-defined target, with English the working language of its financial sector |
-| 8 | South Africa | Proposed | King IV as the spine of the board pack; the Prudential Authority and FSCA; POPIA |
-| 9 | India | Proposed | RBI's framework for responsible AI and SEBI's expectations; a very large pool of regulated entities; the DPDP rules still phasing in |
-| 10 | Japan | Proposed | FSA, METI's business guidelines and the AI Promotion Act; Japanese-language content makes it the dearest of the ten, so it goes last unless a sponsor appears first |
+
+## Deployment platforms
+
+The apps run today on Cloudflare: Workers, D1, Access for the email sign-in, service bindings between apps and Cloudflare's email service, installed by `triodian-install` into the client's own Cloudflare account. Platform support means the same apps and the same installer deploying into a client's own account on another cloud, with the store, the sign-in, the calls between apps and the outgoing email each behind an adapter, so that a regulated entity whose estate, residency requirement or supplier policy names one cloud can run the suite there without a fork. Residency then becomes a property of the region chosen, which it is not on D1 today. Each platform is one piece of work: the adapters, an installer target, the suite and chain tests running against it, and the security answer pack extended with that platform's statement.
+
+| Order | Platform | Status | Note |
+| --- | --- | --- | --- |
+| 4 | Amazon Web Services | Proposed | The largest share of regulated-entity estates in the suite's current jurisdictions |
+| 5 | Microsoft Azure | Proposed | Where a client's identity and agent controls already live in Entra and Purview, the suite's sign-in and controls map onto them; the security answer pack already names the path to Azure as an open item |
+| 6 | Google Cloud | Proposed | Smaller share in financial services; follows the other two unless a sponsor's estate is there |
+
+A platform waits on a client or sponsor who must run in it; none is started on speculation. The order above can change with the first such client. Cloudflare remains the reference deployment and the one the worked examples, the test sites and the installer's default target use.
+
+## Proposed jurisdictions
+
+| Order | Jurisdiction | Status | Note |
+| --- | --- | --- | --- |
+| 7 | New Zealand | Proposed | RBNZ and the FMA; CoFI; the Australian packs port almost whole, and trans-Tasman firms advise on both sides |
+| 8 | Hong Kong | Proposed | HKMA and SFC guidance on generative AI and AI models; PDPO; a common-law, English-language regime shared with the Singapore firms |
+| 9 | United Arab Emirates | Proposed | DFSA and FSRA in the two financial free zones, with the onshore regulators; an English-language common-law regime with the heaviest concentration of international firms outside London |
+| 10 | Switzerland | Proposed | FINMA's guidance on AI governance and risk management; a narrow, well-defined target, with English the working language of its financial sector |
+| 11 | South Africa | Proposed | King IV as the spine of the board pack; the Prudential Authority and FSCA; POPIA |
+| 12 | India | Proposed | RBI's framework for responsible AI and SEBI's expectations; a very large pool of regulated entities; the DPDP rules still phasing in |
+| 13 | Japan | Proposed | FSA, METI's business guidelines and the AI Promotion Act; Japanese-language content makes it the dearest jurisdiction on the list, so it goes last unless a sponsor appears first |
 
 Alternates, if one of the proposed seven stalls: Malaysia (close to the Singapore work) and South Korea (a binding AI statute, in Korean). Ireland and the Nordic countries are covered by the European Union overlay and are not listed separately.
 
