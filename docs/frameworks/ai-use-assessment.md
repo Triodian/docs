@@ -2,7 +2,7 @@
 title: "AI Use Assessment framework"
 audience: [practitioner, board]
 apps: [suite]
-lastReviewed: 2026-11-15
+lastReviewed: 2026-11-17
 sidebar_position: 4
 ---
 
@@ -151,6 +151,8 @@ Priority combines gap size with consequence (from the calibration set or the def
 ## Outputs
 
 The register; one finding worksheet per arrangement; the technical schedule (evidence items, who produces each, when); the technical annex in Triodian's name, with a scope line in Lite scope naming what was left out; register extract v2 (`triodian.aua.extract.v2`: the entries, measures M1 to M12, gaps by priority, overdue items) served to AI Risk Appetite and shown in the board view; provider findings F1 to F4 as records for GRC platforms; scheduled updates to the technology owner and AI governance team; questions to counsel and counsel's responses, kept with counsel. Every output carries its evidence line and its version.
+
+**Incident accountability (Shape A).** Three further outputs, in build since 17 November 2026: DL11, the *incident readiness record*, which for each arrangement records the runtime records that would show what each AI use did, who holds them, the agreement clause that reaches them, the production time, the accountable person for the system, the shared infrastructure and the change process, and the notification clocks the jurisdiction and sector bring, each per the Obligations Atlas as at a stated date for counsel to confirm, with every blank listed as a gap with an owner; DL12, an *evidence-preservation hold* letter per record holder, drafted from DL11, settled by counsel and never sent by the app; and VE, the *exercise and incident record*, one validation event per tabletop exercise or real incident, with what each party said beside what it showed, the test against the board's tolerances and triggers, the clocks, the agreed line and who speaks to it, the seams, the finding and the time the records took. Why the suite builds this and not crisis tooling: the question an incident puts to a board is not whether the AI caused it but, if it had, how the organisation would have known and how fast, which is an evidence question in the register. See [Run the incident accountability tabletop](/guides/running-an-engagement/incident-accountability-tabletop).
 
 **Language rules.** State what was found and who determined it; do not state what the law requires or whether a duty is met; name no product; no customer or member data appears; a gap names the class of control that would close it, never a product.
 
