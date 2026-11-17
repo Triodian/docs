@@ -6,7 +6,7 @@ lastReviewed: 2026-11-17
 sidebar_position: 5
 ---
 
-This guide is for the practitioner or Triodian facilitator who runs *The Saturday Morning Question*. This is the half-day tabletop exercise in the AI Incident Accountability module (Shape A). It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
+This guide is for the practitioner or Triodian facilitator who runs the half-day tabletop exercise in the AI Incident Accountability module (Shape A). It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
 
 At the end, the client has these outputs from AI Use Assessment:
 
@@ -18,11 +18,11 @@ At the end, the client has these outputs from AI Use Assessment:
 The module is not a crisis management tool. The client can use it during an incident, but does not need it. Every output downloads as Word, PDF or Markdown. The client keeps using its own crisis tool during an incident. The app does not start any notification deadline, and it does not decide whether a notification is due. Counsel must confirm before anything is sent.
 
 :::note Status
-In build. The outputs were added to AI Use Assessment on 17 November 2026 (use-assessment #45). We will describe the module as delivered only when:
+Available since 17 November 2026, as part of AI Use Assessment (use-assessment #45), live on the test and live sites. The tabletop can be booked on its own or inside a use assessment; the fee is on [triodian.com/incident-accountability](https://triodian.com/incident-accountability#fees).
+:::
 
-- it is live on the test site
-- we have done an internal dry run of the tabletop
-- counsel has read the hold letter template and the wording about notification deadlines.
+:::tip Example script
+An example script for this tabletop, based on the FAA ground stop in the United States on 13 November 2026, and the background briefing its facts come from can be downloaded from [triodian.com/incident-accountability](https://triodian.com/incident-accountability#example-script).
 :::
 
 ## Before you start
@@ -37,7 +37,7 @@ You need:
   - the GC
   - counsel
   - an independent reviewer for the review afterwards.
-- **The scenario pack.** It contains the facts of 13 November 2026 as at the briefing's version, the injects (new information released during the exercise) and their times, and the caveats.
+- **The example script.** It contains the facts of 13 November 2026 as at the briefing's version, the injects (new information released during the exercise) and their times, and the caveats.
 
 ## Steps
 
@@ -96,4 +96,4 @@ You need:
 
 The exercise may show that a tolerance or trigger was set incorrectly. If so, raise it at the next appetite review in AI Risk Appetite. The app does not change any appetite position or board direction itself.
 
-The scenario pack has a 90-minute version for the board only, and the facts and injects.
+The example script has a 90-minute version for the board only, and the facts and injects.
