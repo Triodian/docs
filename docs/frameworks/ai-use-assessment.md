@@ -248,7 +248,7 @@ If an entry is above the authority ceiling, or in a location marked not accepted
 
 Every output shows its evidence line and its version.
 
-**Incident accountability (Shape A).** 3 more outputs, in build since 17 November 2026:
+**Incident accountability (Shape A).** 3 more outputs, available since 17 November 2026:
 
 - **DL11, the *incident readiness record*.** For each arrangement, it records:
   - the runtime records that would show what each AI use did
