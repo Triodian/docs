@@ -18,7 +18,7 @@ Every Triodian repository is public on [GitHub](https://github.com/Triodian) and
 - [Writing style](./writing-style.md): how to write pages for this site, based on the Australian Government Style Manual
 - Architecture of a Triodian app: Worker, D1, the shared identity file, the content build script, the test layout
 - Releases and changelog: one page, newest first, with schema versions
-- [Roadmap](./roadmap.md): what we are building next and what each item depends on
+- [Roadmap](./roadmap.md): what we plan to build next
 - Code of conduct, contributing guide and pull request template: in each repository
 
 

@@ -13,6 +13,6 @@ We are writing these guides:
 - A Confidentiality Exposure Assessment matter
 - Building a matter brief in the Obligations Atlas
 
-Ready now: [Run the incident accountability tabletop](/guides/running-an-engagement/incident-accountability-tabletop) (AI Use Assessment, Shape A).
+Ready now: [Run the incident accountability tabletop](/guides/running-an-engagement/incident-accountability-tabletop) (in AI Use Assessment).
 
 Until they are ready, use the link set-up notes and the runbook in the [Reference](/reference) section. These come from the app repositories.

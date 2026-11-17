@@ -6,7 +6,7 @@ lastReviewed: 2026-11-17
 sidebar_position: 5
 ---
 
-This guide is for the practitioner or Triodian facilitator who runs the half-day tabletop exercise in the AI Incident Accountability module (Shape A). It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
+This guide is for the practitioner or Triodian facilitator who runs the half-day tabletop exercise in the AI Incident Accountability module. It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
 
 At the end, the client has these outputs from AI Use Assessment:
 
@@ -74,7 +74,7 @@ You need:
    - what may be disclosed while the cause is still unknown.
 
    Only counsel can finalise the statement. The *Settle the line as counsel* button is greyed out for everyone else, and the app explains why.
-6. **Who is accountable where responsibilities meet? (2:30)** For each AI use involved, the app shows the 3 accountable people from its readiness record. Type in the points where their responsibilities meet. Also type in any point where no one is responsible.
+6. **Who is accountable for each part? (2:30)** For each AI use involved, the app shows the 3 accountable people from its readiness record. Type in each part that more than one of them is responsible for, and any part that no one is responsible for.
 7. **The finding changes (3:00).** Read inject 4. The cause was a configuration change pushed by the AI service. The vendor's own log did not support its statement.
 
    Record the finding as the investigators concluded it. The app does not investigate. Record how long each record holder took to produce its records, compared with the production time in the readiness record. Update each party's *showed* entry.
