@@ -7,9 +7,9 @@ slug: /roadmap
 sidebar_position: 3
 ---
 
-This page lists what we plan to build next. It is the only copy of the roadmap. The organisation profile on GitHub, each app's README and [triodian.com/status](https://triodian.com/status) all link here.
+This page lists what we plan to build next. It is the only copy of the open-source roadmap. The organisation profile on GitHub, each app's README and the [Roadmap category in GitHub Discussions](https://github.com/orgs/Triodian/discussions/categories/roadmap) all link here. To suggest an item or discuss one, start a discussion in that category.
 
-Everything on this page is planned. None of it is delivered yet. To see what has been released, check the status page and each app's releases.
+Everything on this page is planned. None of it is delivered yet. To see what has been released, check each app's releases on GitHub.
 
 We do not give dates. Items are listed in the order we expect to build them, and the order can change.
 
@@ -101,10 +101,10 @@ The notes on regulators and instruments above are based on our reading at the da
 ## What is not on this roadmap
 
 - **Real-time incident tools.** We decided not to build alerting or mass notification. Clients keep their own crisis tools. The suite produces the documents that go into them.
-- **Agent controls and signed evidence** (the rules tier and evidence layer). These are a separate program, planned and not yet available. See [triodian.com/status](https://triodian.com/status).
+- **Agent controls and signed evidence** (the rules tier and evidence layer). These are a separate, closed-source program, not part of the open-source suite, and are not yet available. Their plans are on [triodian.com/status](https://triodian.com/status).
 - **An organisation-wide mode in Confidentiality Exposure Assessment for everyday AI tools.** This needs its own method text first.
-- **Commercially licensed products.** These include integrations with governance, risk and compliance (GRC) tools and board portals, such as Diligent, ServiceNow, OneTrust, Archer, OpenPages, Purview and Harmonic. They are not part of the open-source suite, so they are not listed here. See [triodian.com/status](https://triodian.com/status#roadmap) for their plans.
+- **Commercially licensed products.** These include integrations with governance, risk and compliance (GRC) tools and board portals, such as Diligent, ServiceNow, OneTrust, Archer, OpenPages, Purview and Harmonic. They are not part of the open-source suite, so they are not listed here. Their plans are on [triodian.com/status](https://triodian.com/status#roadmap), which covers closed-source items only.
 
 ## How we update this page
 
-We update this page when our plans change. To see whether an item has started, check the status page and each app's releases.
+We update this page when our plans change. To see whether an item has started, check each app's releases on GitHub, or ask in the [Roadmap category in GitHub Discussions](https://github.com/orgs/Triodian/discussions/categories/roadmap).
