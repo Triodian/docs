@@ -6,7 +6,7 @@ lastReviewed: 2026-11-17
 sidebar_position: 5
 ---
 
-This guide is for the practitioner or Triodian facilitator who runs the half-day tabletop exercise in the AI Incident Accountability module (Shape A). It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
+This guide is for the practitioner or Triodian facilitator who runs the half-day tabletop exercise in the AI Incident Accountability module. It is also for the board, general counsel (GC), chief risk officer (CRO) and arrangement owners who take part.
 
 At the end, the client has these outputs from AI Use Assessment:
 
