@@ -1,6 +1,6 @@
-# Triodian AI Governance App Suite: documentation
+# Triodian Assessment Suite: documentation
 
-The source of [docs.triodian.com](https://docs.triodian.com), the documentation site for the Triodian AI Governance App Suite: Obligations Atlas, AI Board Direction, AI Risk Appetite, AI Use Assessment and Confidentiality Exposure Assessment.
+The source of [docs.triodian.com](https://docs.triodian.com), the documentation site for the Triodian Assessment Suite: Obligations Atlas, AI Board Direction, AI Risk Appetite, AI Use Assessment and Confidentiality Exposure Assessment.
 
 The site has six sections: Start here, Guides, Concepts, Reference, Frameworks and Contribute. Guides say how to do one job; Concepts say what a thing is and why the suite has it; Reference is facts to look up. That split (Diátaxis) is deliberate: a page that mixes them is split.
 
@@ -45,6 +45,6 @@ Two repository secrets are needed once: `CLOUDFLARE_API_TOKEN` (Cloudflare Pages
 
 ## Licence
 
-Apache 2.0, the same as the apps. The Triodian name and logo are trademarks and are outside the licence. See [triodian.com/licensing](https://triodian.com/licensing#app-suite).
+Apache 2.0, the same as the apps. The Triodian name and logo are trademarks and are outside the licence. See [triodian.com/licensing](https://triodian.com/licensing#assessment-suite).
 
 Security problems: use GitHub's private vulnerability reporting on this repository, not a public issue.

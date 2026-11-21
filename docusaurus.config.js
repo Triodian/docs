@@ -10,7 +10,7 @@ const APP_REPOS = JSON.parse(readFileSync(new URL('./apps.json', import.meta.url
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Triodian AI Governance App Suite',
+  title: 'Triodian Assessment Suite',
   tagline: 'Open-source apps for board direction, risk appetite, use assessment and confidentiality',
   favicon: 'img/favicon.ico',
   headTags: [

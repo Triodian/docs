@@ -1,14 +1,14 @@
 ---
-title: Triodian AI Governance App Suite
+title: Triodian Assessment Suite
 audience: [practitioner, board, operator, contributor]
 apps: [suite]
 jurisdictions: [au]
-lastReviewed: 2026-11-17
+lastReviewed: 2026-11-21
 slug: /
 sidebar_position: 1
 ---
 
-The Triodian AI Governance App Suite is 5 open-source apps for governing artificial intelligence (AI). They take an organisation through 4 stages:
+The Triodian Assessment Suite is 5 open-source apps for governing artificial intelligence (AI). They take an organisation through 4 stages:
 
 1. The board sets its direction on AI.
 2. Management sets a risk appetite for AI.
